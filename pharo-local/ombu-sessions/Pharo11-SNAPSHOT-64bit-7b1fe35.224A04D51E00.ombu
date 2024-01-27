@@ -1,0 +1,1001 @@
+OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:52:57.311-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-7b1fe35.2277520C7240', '182' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setSistema:unSistema\rempresa := unSistema.\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:52',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:52:57.312-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setSistema:unSistema\rempresa := unSistema.\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:52',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:',
+			#protocol : #initialization,
+			#sourceCode : 'setSistema:unSistema\rempresa := unSistema.\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:52',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:53:40.117-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VisualEmpresa,
+				#isMetaSide : false
+			},
+			#name : #'inicializarConSISTEMA:',
+			#protocol : #initialization,
+			#sourceCode : 'inicializarConSISTEMA:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\rorigen := self innerBounds origin.\r"texto fecha hoy"\rfechaHoy := StringMorph new.\rfechaHoy contents: Date today asString.\rself addMorph: fechaHoy.\rfechaHoy position: origen + (5@5).\r"texto seleccione su rol"\rtituloMenu := StringMorph new.\rtituloMenu contents: \'SELECCIONE SU ROL\'.\rtituloMenu position: origen + (160@30).\rself addMorph: tituloMenu.\r"boton usuario admin"\rbotonUserAdmin := BotonAccion new.\rself addMorph: botonUserAdmin.\rbotonUserAdmin label: \'ADMINISTRADOR\'.\rbotonUserAdmin position: origen + (260@60).\r"boton usuario normal"\rbotonUserNormal := BotonAccion new.\rself addMorph: botonUserNormal.\rbotonUserNormal label: \'USUARIO\'.\rbotonUserNormal position: origen + (100@60).\rbotonUserNormal mouseAction: [self delete. self abrirInicioSesion]. "abre el inicio de sesion"\r"agregar cliente\rbotonCliente := BotonAccion new.\rbotonCliente label: \'AGREGAR CLIENTE\'.\rbotonCliente mouseAction: [nombre := UIManager default\r\trequest: \'What\'\'s your name?\'\r\tinitialAnswer: \'no name\'].\rself addMorph: botonCliente.\rbotonCliente position: origen + (5@25)."\rself openCenteredInWorld.\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:53',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:55:02.088-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VisualEmpresa class',
+				#isMetaSide : true
+			},
+			#name : #'abrirVisualEmpresaConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualEmpresaConSist:unSistema\r|aux|.\raux := VisualEmpresa new.\raux inicializarConSISTEMA: unSistema.\r^aux',
+			#stamp : 'Giuuuuli 1/23/2024 10:55',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:55:34.516-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'iniciarSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSistema: unSistema\rempresa := unSistema.\rVisualEmpresa abrirVisualEmpresa.',
+			#stamp : 'Jere 1/16/2024 17:03',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'iniciarSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSistema: unSistema\rempresa := unSistema.\rVisualEmpresa abrirVisualEmpresaConSist: unSistema .',
+			#stamp : 'Giuuuuli 1/23/2024 10:55',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:55:44.911-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:59:19.931-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #'ventanaInicioSesionConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesionConSist:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: empresa conVentana:self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:59',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:59:26.178-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #ventanaInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesion\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: empresa conVentana:self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:40',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T10:59:37.394-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VistaUsuario class',
+				#isMetaSide : true
+			},
+			#name : #'crearVistaUsuarioConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVistaUsuarioConSist:unSistema\r|aux|.\raux := self new.\raux ventanaInicioSesionConSist:unSistema.',
+			#stamp : 'Giuuuuli 1/23/2024 10:59',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:03:43.808-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'abrirVisualContratosConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualContratosConSist:unSistema conCliente: unCliente\rVentanaContratos crearVistaContratoConSist:unSistema conCliente:unCliente.',
+			#stamp : 'Giuuuuli 1/23/2024 11:03',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:03:49.581-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'abrirVisualContratos:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualContratos: unCliente\rVentanaContratos crearVistaContrato: unCliente.',
+			#stamp : 'Jere 1/16/2024 16:40',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:17:35.61-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VentanaContratos,
+				#isMetaSide : false
+			},
+			#name : #'inicializarContratosConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializarContratosConSist: unSistema conCliente:unCliente\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\rcliente := unCliente.',
+			#stamp : 'Giuuuuli 1/23/2024 11:17',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:19:31.287-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. ventanita abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:39',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:19',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:21:14.075-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'abrirInicioSesionConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirInicioSesionConSist:unSistema\rVistaUsuario crearVistaUsuarioConSist:unSistema',
+			#stamp : 'Giuuuuli 1/23/2024 11:21',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:21:32.689-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VisualEmpresa,
+				#isMetaSide : false
+			},
+			#name : #'inicializarConSISTEMA:',
+			#protocol : #initialization,
+			#sourceCode : 'inicializarConSISTEMA:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\rorigen := self innerBounds origin.\r"texto fecha hoy"\rfechaHoy := StringMorph new.\rfechaHoy contents: Date today asString.\rself addMorph: fechaHoy.\rfechaHoy position: origen + (5@5).\r"texto seleccione su rol"\rtituloMenu := StringMorph new.\rtituloMenu contents: \'SELECCIONE SU ROL\'.\rtituloMenu position: origen + (160@30).\rself addMorph: tituloMenu.\r"boton usuario admin"\rbotonUserAdmin := BotonAccion new.\rself addMorph: botonUserAdmin.\rbotonUserAdmin label: \'ADMINISTRADOR\'.\rbotonUserAdmin position: origen + (260@60).\r"boton usuario normal"\rbotonUserNormal := BotonAccion new.\rself addMorph: botonUserNormal.\rbotonUserNormal label: \'USUARIO\'.\rbotonUserNormal position: origen + (100@60).\rbotonUserNormal mouseAction: [self delete. self abrirInicioSesion]. "abre el inicio de sesion"\r"agregar cliente\rbotonCliente := BotonAccion new.\rbotonCliente label: \'AGREGAR CLIENTE\'.\rbotonCliente mouseAction: [nombre := UIManager default\r\trequest: \'What\'\'s your name?\'\r\tinitialAnswer: \'no name\'].\rself addMorph: botonCliente.\rbotonCliente position: origen + (5@25)."\rself openCenteredInWorld.\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:53',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VisualEmpresa,
+				#isMetaSide : false
+			},
+			#name : #'inicializarConSISTEMA:',
+			#protocol : #initialization,
+			#sourceCode : 'inicializarConSISTEMA:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\rorigen := self innerBounds origin.\r"texto fecha hoy"\rfechaHoy := StringMorph new.\rfechaHoy contents: Date today asString.\rself addMorph: fechaHoy.\rfechaHoy position: origen + (5@5).\r"texto seleccione su rol"\rtituloMenu := StringMorph new.\rtituloMenu contents: \'SELECCIONE SU ROL\'.\rtituloMenu position: origen + (160@30).\rself addMorph: tituloMenu.\r"boton usuario admin"\rbotonUserAdmin := BotonAccion new.\rself addMorph: botonUserAdmin.\rbotonUserAdmin label: \'ADMINISTRADOR\'.\rbotonUserAdmin position: origen + (260@60).\r"boton usuario normal"\rbotonUserNormal := BotonAccion new.\rself addMorph: botonUserNormal.\rbotonUserNormal label: \'USUARIO\'.\rbotonUserNormal position: origen + (100@60).\rbotonUserNormal mouseAction: [self delete. self abrirInicioSesionConSist: unSistema ]. "abre el inicio de sesion"\r"agregar cliente\rbotonCliente := BotonAccion new.\rbotonCliente label: \'AGREGAR CLIENTE\'.\rbotonCliente mouseAction: [nombre := UIManager default\r\trequest: \'What\'\'s your name?\'\r\tinitialAnswer: \'no name\'].\rself addMorph: botonCliente.\rbotonCliente position: origen + (5@25)."\rself openCenteredInWorld.\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:21',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:25:59.564-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r|rta|.\rrta := colClientes detect:[:unCliente | unCliente esIgual: unDni].\r^ rta.',
+			#stamp : 'Jere 1/15/2024 20:01',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^ colClientes detect:[:unCliente | unCliente esIgual: unDni]ifNone: [0].\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:25',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:26:16.103-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:29:36.182-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^ colClientes detect:[:unCliente | unCliente esIgual: unDni]ifNone: [0].\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:25',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^ colClientes detect:[:unCliente | unCliente esIgual: unDni]ifNone: [nil].\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:29',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:38:06.712-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:53:31.6-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventana texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventana := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventana addMorphCentered: texto.\rventana openCenteredInWorld .',
+			#stamp : 'Jere 1/16/2024 16:47',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/23/2024 11:53',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T11:53:38.79-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T00:50:23.133-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:19',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T00:50:30.103-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T00:50:35.653-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T00:56:31.379-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonInicioSesion\r\tinstanceVariableNames: \'campoUser campoClave sistema ventanita\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonInicioSesion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoUser,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoClave,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #sistema,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #ventanita,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonInicioSesion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonInicioSesion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonInicioSesion,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonInicioSesion\r\tinstanceVariableNames: \'campoUser campoClave sistema ventanita tipoError\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonInicioSesion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoUser,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoClave,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #sistema,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #ventanita,
+					#parent : @29
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #tipoError,
+					#parent : @29
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonInicioSesion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonInicioSesion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @29
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonInicioSesion,
+					#isMetaSide : false
+				},
+				#parent : @29,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:05:02.054-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/24/2024 00:50',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:05',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:06:28.541-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:05',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:06',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:07:35.722-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:06',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: \'usuaaarioooo  \'+tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:07',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:08:48.446-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: \'usuaaarioooo  \'+tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:07',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: \'usuaaarioooo  \',tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:08',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:09:47.991-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rTranscript show: \'usuaaarioooo  \',tempUsuario .        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:08',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString ).\rtipoError :=\'ejecuta?\'.        \rtempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) getText asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].',
+			#stamp : 'Giuuuuli 1/24/2024 01:09',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:20:04.035-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura\r|frame barra bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rbCerrar := BotonCerrar new.\r\rbCerrar position: frame topRight - bCerrar extent.\rbarra position: frame position - (0@20).\rframe addMorph: barra.\rframe addMorph: bCerrar  inFrontOf: barra.\r^ frame',
+			#stamp : 'Jere 1/15/2024 20:20',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura\r|frame barra bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rbCerrar := BotonCerrar new.\r',
+			#stamp : 'Giuuuuli 1/24/2024 01:20',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:39:20.847-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VentanaContratos class',
+				#isMetaSide : true
+			},
+			#name : #'crearVistaContratoConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVistaContratoConSist:unSistema conCliente: unCliente\r|aux|.\raux:= self new.\raux crearVentanaConAncho: 770 altura: 600 titulo: \'CONTRATOS\'.\raux inicializarContratosConSist: unSistema conCliente:unCliente.',
+			#stamp : 'Giuuuuli 1/24/2024 01:39',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:42:02.884-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:titulo:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura titulo: unTitulo\r|frame barra titulo contenedorTitulo bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\r\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rcontenedorTitulo := Morph new beTransparent; extent: unAncho@40.\rtitulo := TextMorph new contents: (unTitulo asText allBold); fillsOwner: true.\rtitulo font: (LogicalFont familyName: \'Roboto\' pointSize: 20).\r\rbCerrar := BotonCerrar new.\rframe addMorph: bCerrar.\rbCerrar position: frame topRight - bCerrar extent.\rbarra position: frame position - (0@20).\r\rframe addMorphFront: titulo. titulo position: frame topLeft + (10@0).\rframe addMorph: barra.\rframe addMorph: bCerrar  inFrontOf: barra.\r^ frame',
+			#stamp : 'Jere 1/16/2024 16:47',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:titulo:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura titulo: unTitulo\r|frame  titulo contenedorTitulo |\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\r\rcontenedorTitulo := Morph new beTransparent; extent: unAncho@40.\rtitulo := TextMorph new contents: (unTitulo asText allBold); fillsOwner: true.\rtitulo font: (LogicalFont familyName: \'Roboto\' pointSize: 20).\r\rframe addMorphFront: titulo. titulo position: frame topLeft + (10@0).\r\r^ frame',
+			#stamp : 'Giuuuuli 1/24/2024 01:42',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:44:06.475-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/23/2024 11:53',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 800) altura: (texto height + 400) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/24/2024 01:44',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-24T01:44:37.356-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 800) altura: (texto height + 400) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/24/2024 01:44',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/24/2024 01:44',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}

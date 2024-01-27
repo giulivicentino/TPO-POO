@@ -1,0 +1,1010 @@
+OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:32.517-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-7b1fe35.224A04D51E00', '21' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'esIgual:',
+			#protocol : #queries,
+			#sourceCode : 'esIgual: unDni\r^ dni=unDni.',
+			#stamp : 'Jere 7/24/2023 17:34',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'esIgual:',
+			#protocol : #queries,
+			#sourceCode : 'esIgual: unDni\r^ dni asString = unDni asString.',
+			#stamp : 'Jere 1/23/2024 19:25',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:32.569-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #getContratosString,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getContratosString\r|contratos|.\rcontratos := OrderedCollection new.\rcolContratos do:[:contrato | contratos add: contrato toString].\r^ contratos.\r',
+			#stamp : 'Jere 1/25/2024 19:30',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:32.817-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCantPersonas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getCantPersonas\r^ cantPersonas ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCantPersonas,
+			#protocol : #accessing,
+			#sourceCode : 'getCantPersonas\r^ cantPersonas ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:32.819-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCantPersonas,
+			#protocol : #accessing,
+			#sourceCode : 'getCantPersonas\r^ cantPersonas ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCantPersonas,
+			#protocol : #accessing,
+			#sourceCode : 'getCantPersonas\r^ cantPersonas ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:32.845-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #toString,
+			#protocol : #queries,
+			#sourceCode : 'toString\r^ \'Numero de contrato: \',numero asString,\' | Nombre del viaje: \',refViaje getNombre,\' | Fecha creacion: \',fechaCreacion asString,\' | Cantidad de personas: \',cantPersonas asString,\' | Cantidad de cuotas por pagar: \',cantCuotas asString,\'.\'.',
+			#stamp : 'Jere 1/25/2024 19:45',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:22:33.613-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #toString,
+			#protocol : #printing,
+			#sourceCode : 'toString\r^ nombre, \'costo: \',costoPersona.',
+			#stamp : 'Jere 1/25/2024 19:06',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.293-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #'TPOFINAL VISUAL-Manifest',
+		#affectedPackageName : #'TPOFINAL VISUAL'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.294-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'PackageManifest',
+				#definitionSource : 'PackageManifest subclass: #ManifestTPOFINALVISUAL\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL-Manifest\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestTPOFINALVISUAL,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestTPOFINALVISUAL class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestTPOFINALVISUAL class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestTPOFINALVISUAL,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL-Manifest',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.368-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpBehaviorCommentChange {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'PackageManifest',
+				#definitionSource : 'PackageManifest subclass: #ManifestTPOFINALVISUAL\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL-Manifest\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestTPOFINALVISUAL,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestTPOFINALVISUAL class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestTPOFINALVISUAL class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestTPOFINALVISUAL,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL-Manifest',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		},
+		#oldComment : '',
+		#newComment : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+		#oldStamp : '',
+		#newStamp : '<historical>'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.451-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestTPOFINALVISUAL class',
+				#isMetaSide : true
+			},
+			#name : #ruleStringConcatenationRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleStringConcatenationRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGMethodDefinition #(#VentanaContratos #crearTabla: #false)) #\'2024-01-25T19:47:47.289-03:00\') #(#(#RGPackageDefinition #(#\'TPOFINAL VISUAL\')) #\'2024-01-25T19:47:55.281-03:00\') )',
+			#stamp : 'Jere 1/25/2024 19:47',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.676-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 11:19',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser getText asString).\r        (tempUsuario) ifNotNil: \r        [  \r            ((tempUsuario getContrasenia) asString = (campoClave getText) asString)\r                ifTrue: [ self owner delete.ventanita abrirVisualContratosConSist: sistema conCliente: tempUsuario ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ].\r         tempUsuario ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Jere 1/24/2024 23:51',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.68-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'ScrollPane',
+				#definitionSource : 'ScrollPane subclass: #Tabla\r\tinstanceVariableNames: \'colorTexto x y ultimoY cabecera fondoCabecera\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Tabla,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #colorTexto,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #x,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #y,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #ultimoY,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #cabecera,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Tabla,
+						#isMetaSide : false
+					},
+					#name : #fondoCabecera,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Tabla class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Tabla class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Tabla,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.717-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Tabla,
+				#isMetaSide : false
+			},
+			#name : #'iniciar:y:cabecera:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciar:xIn y:yIn cabecera:cabeceraIn\rx := xIn.\r\ty := yIn.\r\tultimoY := 40.\r\tself extent: x@y.\r\tself color: Color white.\r\tself borderWidth: 2.\r\tself borderColor: Color lightBlue.\r\tcolorTexto := OrderedCollection new.\r\tcabecera := cabeceraIn asStringMorph.\r\tfondoCabecera := Morph new.\r\tfondoCabecera extent: x@30.\r\tfondoCabecera color: Color white.\r\tfondoCabecera borderColor: Color lightBlue.\r\tfondoCabecera borderWidth: 2.\r\tcabecera borderColor: Color lightBlue.\r\tcabecera borderWidth: 2.\r\tcabecera position:5@10.\r\tself addMorph: fondoCabecera .\r\tself addMorphFront: cabecera. ',
+			#stamp : 'Jere 1/26/2024 00:46',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.72-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Tabla,
+				#isMetaSide : false
+			},
+			#name : #'iniciar:y:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciar:xIn y:yIn\rx := xIn.\r\ty := yIn.\r\tultimoY := 40.\r\tself extent: x@y.\r\tself color: Color black.\r\tcolorTexto := OrderedCollection new.',
+			#stamp : 'Jere 1/25/2024 18:16',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.724-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Tabla,
+				#isMetaSide : false
+			},
+			#name : #resetear,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'resetear\rcolorTexto do: [:textMorph | textMorph delete. ].\r\tcolorTexto := OrderedCollection new.\r\tultimoY := 40.',
+			#stamp : 'Jere 1/25/2024 18:17',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.727-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Tabla,
+				#isMetaSide : false
+			},
+			#name : #'agregarTexto:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'agregarTexto:texto\r| label |\r    label := texto asStringMorph.\r    label position: 5@ultimoY.\r    ultimoY := ultimoY + 15.\r\t colorTexto add: label.\r    self scroller addMorph: label behind: fondoCabecera.',
+			#stamp : 'Jere 1/25/2024 18:16',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.795-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Tabla class',
+				#isMetaSide : true
+			},
+			#name : #'crear:y:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crear:xIn y:yIn\r^ self new iniciar:xIn y:yIn.',
+			#stamp : 'Jere 1/25/2024 18:15',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.799-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Tabla class',
+				#isMetaSide : true
+			},
+			#name : #'crear:y:cabecera:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crear:xIn y:yIn cabecera:cabecera\r^ self new iniciar:xIn y:yIn cabecera:cabecera.',
+			#stamp : 'Jere 1/25/2024 18:15',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.837-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'setBotonCerrar:',
+			#protocol : #initialization,
+			#sourceCode : 'setBotonCerrar: boton\rbotonCerrarVentana := boton.',
+			#stamp : 'Jere 1/25/2024 00:12',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.841-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Giuuuuli 1/23/2024 11:53',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventanaAux texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventanaAux  := self class crearVentanaConAncho: (texto width + 330) altura: (texto height + 40) titulo: \'ERROR\'.\rventanaAux  addMorphCentered: texto.\rventanaAux  openCenteredInWorld .',
+			#stamp : 'Jere 1/24/2024 01:24',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.845-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'abrirVisualContratos:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualContratos: unCliente\rVentanaContratos crearVistaContrato: unCliente.',
+			#stamp : 'Jere 1/16/2024 16:40',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.919-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:titulo:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura titulo: unTitulo\r|frame barra titulo contenedorTitulo bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\r\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rcontenedorTitulo := Morph new beTransparent; extent: unAncho@40.\rtitulo := TextMorph new contents: (unTitulo asText allBold); fillsOwner: true.\rtitulo font: (LogicalFont familyName: \'Roboto\' pointSize: 20).\r\rbCerrar := BotonCerrar new.\rframe addMorph: bCerrar.\rbCerrar position: frame topRight - bCerrar extent.\rbarra position: frame position - (0@20).\r\rframe addMorphFront: titulo. titulo position: frame topLeft + (10@0).\rframe addMorph: barra.\rframe addMorph: bCerrar  inFrontOf: barra.\r^ frame',
+			#stamp : 'Jere 1/16/2024 16:47',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:titulo:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura titulo: unTitulo\r|frame titulo contenedorTitulo|\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\rcontenedorTitulo := Morph new beTransparent; extent: unAncho@40.\rtitulo := TextMorph new contents: (unTitulo asText allBold); fillsOwner: true.\rtitulo font: (LogicalFont familyName: \'Roboto\' pointSize: 20).\rframe addMorphFront: titulo. titulo position: frame topLeft + (10@0).\r^ frame.',
+			#stamp : 'Jere 1/25/2024 00:16',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.948-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Ventana',
+				#definitionSource : 'Ventana subclass: #VentanaContratos\r\tinstanceVariableNames: \'textoTitulo botonActualizar botonAñadir tabla cliente\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #VentanaContratos,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #textoTitulo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #botonActualizar,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #'botonAñadir',
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #tabla,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #cliente,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'VentanaContratos class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'VentanaContratos class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #VentanaContratos,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Ventana',
+				#definitionSource : 'Ventana subclass: #VentanaContratos\r\tinstanceVariableNames: \'textoTitulo botonActualizar botonAñadir cliente tabla campoNumContrato campoCantPerso texto1 texto2 botonViaje botonModificar\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #VentanaContratos,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #textoTitulo,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #botonActualizar,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #'botonAñadir',
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #cliente,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #tabla,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #campoNumContrato,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #campoCantPerso,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #texto1,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #texto2,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #botonViaje,
+					#parent : @31
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #botonModificar,
+					#parent : @31
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'VentanaContratos class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'VentanaContratos class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @31
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #VentanaContratos,
+					#isMetaSide : false
+				},
+				#parent : @31,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.993-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VentanaContratos,
+				#isMetaSide : false
+			},
+			#name : #'inicializarContratosConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializarContratosConSist: unSistema conCliente:unCliente\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\rcliente := unCliente.',
+			#stamp : 'Giuuuuli 1/23/2024 11:17',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VentanaContratos,
+				#isMetaSide : false
+			},
+			#name : #'inicializarContratosConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializarContratosConSist: unSistema conCliente:unCliente\rself setSistema: unSistema.\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 1200@400).\rbotonCerrarVentana position: (1185@50).\rcliente := unCliente.\rtextoTitulo := StringMorph new.\rtextoTitulo contents: \'Hola, \',cliente apellido,\'!\'.\rself addMorph: textoTitulo.\rtextoTitulo position: self topLeft + (15@15).\r"tabla"\rtabla := Tabla new.\rtabla := self crearTabla: cliente.\rtabla position: self topLeft + (120@60).\rself addMorph: tabla.\r"texto de ranura"\rtexto1 := StringMorph new.\rtexto1 contents: \'Para modificar un contrato:\'.\rtexto1 position: self bottomLeft - (-150@37).\rself addMorph: texto1.\r"ranura para modificar viaje"\rcampoNumContrato := RubTextFieldMorph new extent:(220@20);ghostText: \'INGRESE EL NUMERO DE CONTRATO\'.\rcampoNumContrato borderWidth: 1; borderColor: Color darkGray.\rself addMorph: campoNumContrato.\rcampoNumContrato position: self bottomLeft - (-330@40).\r"ranura para cant personas"\rcampoCantPerso := RubTextFieldMorph new extent:(220@20);ghostText: \'INGRESE LA CANTIDAD DE PERSONAS\'.\rself addMorph: campoCantPerso.\rcampoCantPerso borderWidth: 1; borderColor: Color darkGray.\rcampoCantPerso position: self bottomLeft - (-330@75).\r"texto de ranura2"\rtexto2 := StringMorph new.\rtexto2 contents: \'Para contratar un nuevo viaje:\'.\rtexto2 position: self bottomLeft - (-150@75).\rself addMorph: texto2.\r"boton añadir viaje"\rbotonViaje := BotonAccion new.\rbotonViaje label: \'AÑADIR\'.\rbotonViaje position: self bottomLeft - (-555@75).\rself addMorph: botonViaje.\r"boton modificar viaje"\rbotonModificar := BotonAccion new.\rbotonModificar label: \'MODIFICAR\'.\rbotonModificar position: self bottomLeft - (-555@40).\rbotonModificar mouseAction: [].\rself addMorph: botonModificar.\rself openCenteredInWorld.',
+			#stamp : 'Jere 1/26/2024 01:37',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:12.998-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VentanaContratos,
+				#isMetaSide : false
+			},
+			#name : #'crearTabla:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearTabla:  unCliente\r|coleccion posicion tablaAux contratoAux i|.\rcoleccion := unCliente getContratosString. "este metodo hace una coleccion de strings de cada contrato"\rposicion := \'\' asMorph.\rposicion position: (20@(self lastSubmorph bottom)).\rtablaAux := Tabla crear: 950 y:250 cabecera: \'Contratos existentes de: \', unCliente apellido,\'.\'.\ri := 1.\rcoleccion do: [ :objeto | \r    contratoAux := objeto asMorph.\r    contratoAux position: posicion position + (0 @ 20).\r\tposicion position: posicion position + (0@20).\r    tablaAux agregarTexto: i asString,\'.  \',objeto asString.\r\ti := i+1.\r].\r^ tablaAux.',
+			#stamp : 'Jere 1/26/2024 00:45',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:13.086-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VentanaContratos class',
+				#isMetaSide : true
+			},
+			#name : #'crearVistaContratoConSist:conCliente:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVistaContratoConSist:unSistema conCliente:unCliente\r|aux|.\raux:= self new.\raux inicializarContratosConSist: unSistema conCliente:unCliente.',
+			#stamp : 'Jere 1/24/2024 23:27',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:13.14-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #'ventanaInicioSesionConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesionConSist:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: empresa conVentana:self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Giuuuuli 1/23/2024 10:59',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #'ventanaInicioSesionConSist:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesionConSist:unSistema\rself setSistema: unSistema .\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: empresa conVentana:self.].\rself addMorph: botonAceptar.\rself openCenteredInWorld.\r',
+			#stamp : 'Jere 1/26/2024 00:52',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:13.149-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #ventanaInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesion\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Jere 1/16/2024 17:07',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:13.237-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VistaUsuario class',
+				#isMetaSide : true
+			},
+			#name : #'crearConSistema:usuario:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearConSistema: unSistema usuario: unDni\r|vista|\rvista := self crearVentanaConAncho:  770 altura: 600 titulo: \'LIBRERÍA NACIONAL I.A\'.\rvista inicializarConSistema: unSistema usuario: unDni.\r^ vista',
+			#stamp : '',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:47.408-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarContratoDeCliente:conID:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarContratoDeCliente: unCliente conID:unId\r^ unCliente getContratos detect:[:unContrato | unContrato getNroContrato = unId ]ifNone: [nil].',
+			#stamp : 'Giuuuuli 1/27/2024 00:24',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:24:58.94-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-27T00:27:27.819-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}

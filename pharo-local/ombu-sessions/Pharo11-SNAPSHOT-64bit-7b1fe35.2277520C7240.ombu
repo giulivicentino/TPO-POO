@@ -1,0 +1,5052 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.116-03:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-7b1fe35.200DF1138CF0', '8756' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #'TPOFINAL VISUAL',
+		#affectedPackageName : #'TPOFINAL VISUAL'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.117-03:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #'TPOFINAL VISUAL',
+		#affectedPackageName : #'TPOFINAL VISUAL'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.119-03:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'SimpleButtonMorph',
+				#definitionSource : 'SimpleButtonMorph subclass: #BotonAccion\r\tinstanceVariableNames: \'bloque\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonAccion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonAccion,
+						#isMetaSide : false
+					},
+					#name : #bloque,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonAccion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonAccion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonAccion,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.152-03:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonAccion,
+				#isMetaSide : false
+			},
+			#name : #'mouseAction:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'mouseAction: unBloque\r^ bloque := unBloque.',
+			#stamp : 'Jere 1/12/2024 17:23',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.157-03:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonAccion,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: unEvento\rbloque value.',
+			#stamp : 'Jere 1/12/2024 17:26',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.164-03:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonCerrar\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonCerrar,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonCerrar class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonCerrar class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonCerrar,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.194-03:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonCerrar,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\rself label: (\'CERRAR\' asText allBold). self extent: 45@20; color: Color red; borderColor: Color darkGray ; borderWidth: 3.',
+			#stamp : 'Jere 1/14/2024 18:16',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.199-03:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonCerrar,
+				#isMetaSide : false
+			},
+			#name : #'mouseUp:',
+			#protocol : #'event handling',
+			#sourceCode : 'mouseUp: unEvento\rsuper mouseUp: unEvento.\rself owner delete.',
+			#stamp : 'Jere 1/14/2024 18:16',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.202-03:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonInicioSesion\r\tinstanceVariableNames: \'campoUser campoClave sistema\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonInicioSesion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoUser,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoClave,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #sistema,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonInicioSesion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonInicioSesion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonInicioSesion,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.229-03:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema.\rself iniciarSesion.\r',
+			#stamp : 'Jere 1/16/2024 16:59',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.237-03:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := ((sistema getEmpresa) encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. sistema abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ sistema error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [sistema error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ sistema error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Jere 1/16/2024 17:08',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.24-03:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BorderedMorph',
+				#definitionSource : 'BorderedMorph subclass: #Ventana\r\tinstanceVariableNames: \'empresa botonCerrarVentana\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Ventana,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ventana,
+						#isMetaSide : false
+					},
+					#name : #empresa,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Ventana,
+						#isMetaSide : false
+					},
+					#name : #botonCerrarVentana,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Ventana class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Ventana class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Ventana,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.269-03:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\r"boton cerrar"\rbotonCerrarVentana := BotonAccion new.\rself addMorph: botonCerrarVentana.\rbotonCerrarVentana position: self topRight - (botonCerrarVentana width + 22@0)+(0@5).\rbotonCerrarVentana label: \'CERRAR\'.\rbotonCerrarVentana mouseAction: [self delete].',
+			#stamp : 'Jere 1/15/2024 20:20',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.272-03:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'error:',
+			#protocol : #'error handling',
+			#sourceCode : 'error: unTexto\r|ventana texto|\rtexto := TextMorph new contents: unTexto; color: Color blue ; bold.\rventana := self class crearVentanaConAncho: (texto width + 40) altura: (texto height + 40) titulo: \'ERROR\'.\rventana addMorphCentered: texto.\rventana openCenteredInWorld .',
+			#stamp : 'Jere 1/16/2024 16:47',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.276-03:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'iniciarSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSistema: unSistema\rempresa := unSistema.\rVisualEmpresa abrirVisualEmpresa.',
+			#stamp : 'Jere 1/16/2024 17:03',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.278-03:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #getEmpresa,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getEmpresa\r^ empresa.',
+			#stamp : 'Jere 1/16/2024 17:04',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.281-03:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'abrirVisualContratos:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualContratos: unCliente\rVentanaContratos crearVistaContrato: unCliente.',
+			#stamp : 'Jere 1/16/2024 16:40',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.283-03:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #abrirInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirInicioSesion\rVistaUsuario crearVistaUsuario.',
+			#stamp : 'Jere 1/15/2024 20:20',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.342-03:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:titulo:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura titulo: unTitulo\r|frame barra titulo contenedorTitulo bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\r\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rcontenedorTitulo := Morph new beTransparent; extent: unAncho@40.\rtitulo := TextMorph new contents: (unTitulo asText allBold); fillsOwner: true.\rtitulo font: (LogicalFont familyName: \'Roboto\' pointSize: 20).\r\rbCerrar := BotonCerrar new.\rframe addMorph: bCerrar.\rbCerrar position: frame topRight - bCerrar extent.\rbarra position: frame position - (0@20).\r\rframe addMorphFront: titulo. titulo position: frame topLeft + (10@0).\rframe addMorph: barra.\rframe addMorph: bCerrar  inFrontOf: barra.\r^ frame',
+			#stamp : 'Jere 1/16/2024 16:47',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.345-03:00' ],
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Ventana class',
+				#isMetaSide : true
+			},
+			#name : #'crearVentanaConAncho:altura:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVentanaConAncho: unAncho altura: unaAltura\r|frame barra bCerrar|\r\rframe := self new color: Color veryDarkGray ; extent: unAncho@unaAltura; borderColor: Color darkGray; borderWidth: 3.\rbarra := self new color: Color veryDarkGray; extent: unAncho@20; borderColor: Color darkGray; borderWidth: 3.\rbCerrar := BotonCerrar new.\r\rbCerrar position: frame topRight - bCerrar extent.\rbarra position: frame position - (0@20).\rframe addMorph: barra.\rframe addMorph: bCerrar  inFrontOf: barra.\r^ frame',
+			#stamp : 'Jere 1/15/2024 20:20',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.348-03:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Ventana',
+				#definitionSource : 'Ventana subclass: #VentanaContratos\r\tinstanceVariableNames: \'textoTitulo botonActualizar botonAñadir tabla cliente\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #VentanaContratos,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #textoTitulo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #botonActualizar,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #'botonAñadir',
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #tabla,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VentanaContratos,
+						#isMetaSide : false
+					},
+					#name : #cliente,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'VentanaContratos class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'VentanaContratos class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #VentanaContratos,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.392-03:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VentanaContratos,
+				#isMetaSide : false
+			},
+			#name : #'ventanaDeContratos:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaDeContratos: unCliente\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\rcliente := unCliente.',
+			#stamp : 'Jere 1/16/2024 16:14',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.446-03:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VentanaContratos class',
+				#isMetaSide : true
+			},
+			#name : #'crearVistaContrato:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVistaContrato: unCliente\r|aux|.\raux:= self new.\raux ventanaDeContratos: unCliente.',
+			#stamp : 'Jere 1/16/2024 16:10',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.449-03:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Ventana',
+				#definitionSource : 'Ventana subclass: #VistaUsuario\r\tinstanceVariableNames: \'inicioSesion botonAceptar campoUsuario campoContrasenia titulo cliente\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #VistaUsuario,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #inicioSesion,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #botonAceptar,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #campoUsuario,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #campoContrasenia,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #titulo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VistaUsuario,
+						#isMetaSide : false
+					},
+					#name : #cliente,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'VistaUsuario class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'VistaUsuario class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #VistaUsuario,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.481-03:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #ventanaInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesion\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Jere 1/16/2024 17:07',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.538-03:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VistaUsuario class',
+				#isMetaSide : true
+			},
+			#name : #crearVistaUsuario,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'crearVistaUsuario\r|aux|.\raux := self new.\raux ventanaInicioSesion.',
+			#stamp : 'Jere 1/14/2024 18:34',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.544-03:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Ventana',
+				#definitionSource : 'Ventana subclass: #VisualEmpresa\r\tinstanceVariableNames: \'botonCerrar botonContrato numeroContrato fechaHoy miEmpresa origen botonCliente menuDatos botonTest tituloMenu botonUserAdmin botonUserNormal\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #VisualEmpresa,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonCerrar,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonContrato,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #numeroContrato,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #fechaHoy,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #miEmpresa,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #origen,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonCliente,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #menuDatos,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonTest,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #tituloMenu,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonUserAdmin,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #VisualEmpresa,
+						#isMetaSide : false
+					},
+					#name : #botonUserNormal,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'VisualEmpresa class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'VisualEmpresa class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #VisualEmpresa,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.579-03:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VisualEmpresa,
+				#isMetaSide : false
+			},
+			#name : #initialize,
+			#protocol : #initialization,
+			#sourceCode : 'initialize\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\rorigen := self innerBounds origin.\r"texto fecha hoy"\rfechaHoy := StringMorph new.\rfechaHoy contents: Date today asString.\rself addMorph: fechaHoy.\rfechaHoy position: origen + (5@5).\r"texto seleccione su rol"\rtituloMenu := StringMorph new.\rtituloMenu contents: \'SELECCIONE SU ROL\'.\rtituloMenu position: origen + (160@30).\rself addMorph: tituloMenu.\r"boton usuario admin"\rbotonUserAdmin := BotonAccion new.\rself addMorph: botonUserAdmin.\rbotonUserAdmin label: \'ADMINISTRADOR\'.\rbotonUserAdmin position: origen + (260@60).\r"boton usuario normal"\rbotonUserNormal := BotonAccion new.\rself addMorph: botonUserNormal.\rbotonUserNormal label: \'USUARIO\'.\rbotonUserNormal position: origen + (100@60).\rbotonUserNormal mouseAction: [self delete. self abrirInicioSesion]. "abre el inicio de sesion"\r"agregar cliente\rbotonCliente := BotonAccion new.\rbotonCliente label: \'AGREGAR CLIENTE\'.\rbotonCliente mouseAction: [nombre := UIManager default\r\trequest: \'What\'\'s your name?\'\r\tinitialAnswer: \'no name\'].\rself addMorph: botonCliente.\rbotonCliente position: origen + (5@25)."\rself openCenteredInWorld.\r\r',
+			#stamp : 'Jere 1/14/2024 19:19',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:16.638-03:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VisualEmpresa class',
+				#isMetaSide : true
+			},
+			#name : #abrirVisualEmpresa,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualEmpresa\r|aux|.\raux := VisualEmpresa new.\r',
+			#stamp : 'Jere 1/14/2024 18:49',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.047-03:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #TPOFINAL,
+		#affectedPackageName : #TPOFINAL
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.049-03:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #TPOFINAL,
+		#affectedPackageName : #TPOFINAL
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.052-03:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #AAA_Inicializador\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #AAA_Inicializador,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'AAA_Inicializador class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'AAA_Inicializador class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #AAA_Inicializador,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.124-03:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarViajeOrganizado,
+			#protocol : #inicializarViaje,
+			#sourceCode : 'inicializarViajeOrganizado\r|viaje1 viaje2|\r"viaje1 := crear: \'España-Italia-Londres\' conCostoPersona:350 conImpuestos:70 conCantDias: 10 conColEtapas:unaColEtapas conColOpcionesSalida: unaColOpSalida.\rviaje2 := crear: \'\' conCostoPersona:350 conImpuestos:70 conCantDias: 10 conColEtapas:unaColEtapas conColOpcionesSalida: unaColOpSalida."',
+			#stamp : 'Caiu 7/30/2023 16:39',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.134-03:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarViajeEspecial,
+			#protocol : #inicializarViaje,
+			#sourceCode : 'inicializarViajeEspecial\r|viaje1 viaje2 viaje3|\rviaje1 := ViajeEspecial crear: \'Recital de Tan Bionica\' conCostoPersona: 300\tconImpuestos: 75 conDisponibilidad: 10\tconFechaSalida: ((Date today)addMonths: 4)\r\t\t\t\t\t\t\t\tconCiudad: \'Buenos Aires\' conFechaRegreso: (((Date today)addMonths: 4)addDays: 3).\rviaje2 := ViajeEspecial crear: \'Mundial De Futbol Qatar 2022\' conCostoPersona: 1200\tconImpuestos: 300 conDisponibilidad: 4\tconFechaSalida:\'18-12-22\'asDate  \r\t\t\t\t\t\t\t\tconCiudad: \'Qatar\' conFechaRegreso: \'23-12-22\' asDate .\rviaje3 := ViajeEspecial crear: \'Carnaval Rio 2024\' conCostoPersona: 600\tconImpuestos: 35 conDisponibilidad: 5\tconFechaSalida: ((Date today)addMonths: 6)\r\t\t\t\t\t\t\t\tconCiudad: \'Rio De Janeiro\' conFechaRegreso: (((Date today)addMonths: 6)addDays: 10)  .\t\t\t\t\t\t\t\t',
+			#stamp : 'Caiu 7/30/2023 17:34',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.138-03:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarClientesNormales,
+			#protocol : #InicializarCliente,
+			#sourceCode : 'inicializarClientesNormales\r|cliente1 cliente2 cliente3|\rcliente1 := Cliente crear: \'Cayo\' conDni: 40000000 conCiudadResidencia: \'Alumine\' conContacto: 20000000.\rcliente2 := Cliente crear: \'Herrera\' conDni: 41111111 conCiudadResidencia: \'Neuquen\' conContacto: 21111111.\rcliente3 := Cliente crear: \'Vicentino\' conDni: 42222222 conCiudadResidencia: \'Cinco Saltos\' conContacto: 22222222.\t\t\t',
+			#stamp : 'Caiu 7/30/2023 15:59',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.141-03:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarClienteFrecuente,
+			#protocol : #InicializarCliente,
+			#sourceCode : 'inicializarClienteFrecuente\r|clienteF1|\rclienteF1 := ClienteFrecuente crear: \'Tartaglia\' conDni: 44444444  conCiudadResidencia: \'Fiske Menuco\'  conContacto: 2555555555  conMillas: 500 ',
+			#stamp : 'Caiu 7/30/2023 16:01',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.144-03:00' ],
+		#prior : OmReference [ '36' ],
+		#self : OmReference [ '37' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarExcursionesOpcionales,
+			#protocol : #InicializarExcursion,
+			#sourceCode : 'inicializarExcursionesOpcionales\r|exOp1 exOp2 exOp3|\rexOp1 := Excursion crear: 500 conCantPersonasE: 2.\rexOp2 := Excursion crear: 350 conCantPersonasE: 1.\rexOp3 := Excursion crear: 1500 conCantPersonasE: 4.',
+			#stamp : 'Caiu 7/30/2023 17:17',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.146-03:00' ],
+		#prior : OmReference [ '37' ],
+		#self : OmReference [ '38' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarContratos,
+			#protocol : #InicializarContrato,
+			#sourceCode : 'inicializarContratos\r|contrato1 contrato2 contrato3|"\rcontrato1 := Contrato crear: 000 conFechaCreacion: (Date today)  conViaje:  conFechaViaje:  conCantPersonas:  conColCuotas:  conCantCuotas: .\rcontrato2 := Contrato crear: 001 conFechaCreacion: ((Date today)addMonths: 2) conViaje:  conFechaViaje:  conCantPersonas:  conColCuotas:  conCantCuotas: .\rcontrato3 := Contrato crear: 002 conFechaCreacion: ((Date today)addMonths: 3) conViaje:  conFechaViaje:  conCantPersonas:  conColCuotas:  conCantCuotas: ."',
+			#stamp : 'Caiu 7/30/2023 17:41',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.148-03:00' ],
+		#prior : OmReference [ '38' ],
+		#self : OmReference [ '39' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarContratosFlexibles,
+			#protocol : #InicializarContrato,
+			#sourceCode : 'inicializarContratosFlexibles\r|contratoF1 contratoF2|\r"contratoF1 := ContratoFlexible crear: 004 conFechaCreacion: (Date today) conViaje:  conFechaViaje:  conCantPersonas:  conColCuotas:  conCantCuotas:  conValorPlus: .\rcontratoF2 := ContratoFlexible crear: 005 conFechaCreacion: (Date today) conViaje:  conFechaViaje:  conCantPersonas:  conColCuotas:  conCantCuotas:  conValorPlus: ."',
+			#stamp : 'Caiu 7/30/2023 17:41',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.15-03:00' ],
+		#prior : OmReference [ '39' ],
+		#self : OmReference [ '40' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #AAA_Inicializador,
+				#isMetaSide : false
+			},
+			#name : #inicializarCuotas,
+			#protocol : #inicializarCuota,
+			#sourceCode : 'inicializarCuotas\r|cta1 cta2 cta3 cta4 cta5 cta6 cta7|\rcta1 := Cuota crear: (Date today).\rcta2 := Cuota crear: ((Date today)addDays: 6).\rcta3 := Cuota crear: ((Date today)addDays: 14).\rcta4 := Cuota crear: ((Date today)addMonths:1).\rcta5 := Cuota crear: ((Date today)addMonths:3).\rcta6 := Cuota crear: ((Date today)addMonths:3).\rcta7 := Cuota crear: ((Date today)addMonths:5).',
+			#stamp : 'Caiu 7/30/2023 16:51',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.152-03:00' ],
+		#prior : OmReference [ '40' ],
+		#self : OmReference [ '41' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Cliente\r\tinstanceVariableNames: \'apellido dni ciudadResidencia contacto colContratos contrasenia\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Cliente,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #apellido,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #dni,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #ciudadResidencia,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #contacto,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #colContratos,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cliente,
+						#isMetaSide : false
+					},
+					#name : #contrasenia,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Cliente class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Cliente class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Cliente,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.18-03:00' ],
+		#prior : OmReference [ '41' ],
+		#self : OmReference [ '42' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'esIgual:',
+			#protocol : #queries,
+			#sourceCode : 'esIgual: unDni\r^ dni=unDni.',
+			#stamp : 'Jere 7/24/2023 17:34',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.185-03:00' ],
+		#prior : OmReference [ '42' ],
+		#self : OmReference [ '43' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #revisarContratos,
+			#protocol : #queries,
+			#sourceCode : 'revisarContratos\r|rta|.\rrta := colContratos detect:[:contrato | contrato revisarCuotas] ifNone:[nil]."se fija si hay un contrato con cuotas sin pagar a punto de vencer"\r^ rta isNotNil.',
+			#stamp : 'Jere 7/31/2023 19:30',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.189-03:00' ],
+		#prior : OmReference [ '43' ],
+		#self : OmReference [ '44' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'tieneContrato:',
+			#protocol : #queries,
+			#sourceCode : 'tieneContrato: nroContrato\r|rta|.\rrta := colContratos detect:[:unContrato | unContrato esIgual: nroContrato].\r^ rta isNotNil .',
+			#stamp : 'GiuliannaVicentino 8/1/2023 19:45',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.191-03:00' ],
+		#prior : OmReference [ '44' ],
+		#self : OmReference [ '45' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'agregarContrato:',
+			#protocol : #queries,
+			#sourceCode : 'agregarContrato: unContrato\rcolContratos add:unContrato.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.195-03:00' ],
+		#prior : OmReference [ '45' ],
+		#self : OmReference [ '46' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'agregarContrato:conViaje:conFechaViaje:conPersonas:conCuotas:',
+			#protocol : #queries,
+			#sourceCode : 'agregarContrato: unNumero conViaje: unViaje conFechaViaje: unaFecha conPersonas: personas conCuotas: cuotas\r|unContrato|.\runContrato := Contrato crear: unNumero conFechaCreacion: Date today conViaje: unViaje conFechaViaje: unaFecha conCantPersonas: personas conColCuotas: cuotas conCantCuotas: cuotas size.\rcolContratos add: unContrato.',
+			#stamp : 'Jere 7/24/2023 17:43',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.202-03:00' ],
+		#prior : OmReference [ '46' ],
+		#self : OmReference [ '47' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'eliminarRefViaje:',
+			#protocol : #queries,
+			#sourceCode : 'eliminarRefViaje: unNombreViaje\rcolContratos do:[:contrato | (contrato tieneViaje: unNombreViaje) ifTrue:[colContratos remove: contrato]].',
+			#stamp : 'Jere 7/30/2023 19:47',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.205-03:00' ],
+		#prior : OmReference [ '47' ],
+		#self : OmReference [ '48' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #getContrasenia,
+			#protocol : #queries,
+			#sourceCode : 'getContrasenia\r^ contrasenia.',
+			#stamp : 'Jere 1/15/2024 20:02',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.208-03:00' ],
+		#prior : OmReference [ '48' ],
+		#self : OmReference [ '49' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'buscarContrato:',
+			#protocol : #queries,
+			#sourceCode : 'buscarContrato: nroContrato\r|rta|.\rrta := colContratos detect:[:unContrato | unContrato esIgual: nroContrato].\r^ rta .',
+			#stamp : 'Caiu 7/30/2023 00:22',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.211-03:00' ],
+		#prior : OmReference [ '49' ],
+		#self : OmReference [ '50' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'pagarCuotas:conContrato:',
+			#protocol : #queries,
+			#sourceCode : 'pagarCuotas: cantCuotasAPagar conContrato: elContrato\r^ elContrato cancelarCuotas: cantCuotasAPagar.',
+			#stamp : 'Jere 7/28/2023 20:07',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.215-03:00' ],
+		#prior : OmReference [ '50' ],
+		#self : OmReference [ '51' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'obtenerContrato:',
+			#protocol : #queries,
+			#sourceCode : 'obtenerContrato: nroContrato\r|rta|.\rrta := colContratos detect:[:unContrato | unContrato esIgual: nroContrato].\r^ rta.',
+			#stamp : 'Jere 7/28/2023 19:57',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.218-03:00' ],
+		#prior : OmReference [ '51' ],
+		#self : OmReference [ '52' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conDni:conCiudadResidencia:conContacto:conContrasenia:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar: unApellido conDni: unDni conCiudadResidencia: unaCiudad conContacto: unContacto conContrasenia: unaContrasenia\rapellido:= unApellido .\rdni:= unDni .\rciudadResidencia := unaCiudad .\rcontacto := unContacto .\rcolContratos := OrderedCollection new.\rcontrasenia := unaContrasenia.',
+			#stamp : 'Jere 1/15/2024 20:00',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.221-03:00' ],
+		#prior : OmReference [ '52' ],
+		#self : OmReference [ '53' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'buscarContratoAPagar:',
+			#protocol : #queries,
+			#sourceCode : 'buscarContratoAPagar: unNroContrato\r|elContrato|\relContrato := colContratos detect: [:cadaContrato| (cadaContrato numero = unNroContrato )].\r^ elContrato.',
+			#stamp : 'GiuliannaVicentino 7/24/2023 21:11',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.224-03:00' ],
+		#prior : OmReference [ '53' ],
+		#self : OmReference [ '54' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #dni,
+			#protocol : #accessing,
+			#sourceCode : 'dni\r\r\t^ dni',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.227-03:00' ],
+		#prior : OmReference [ '54' ],
+		#self : OmReference [ '55' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #getContratos,
+			#protocol : #accessing,
+			#sourceCode : 'getContratos\r^ colContratos.',
+			#stamp : 'Jere 7/28/2023 19:49',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.23-03:00' ],
+		#prior : OmReference [ '55' ],
+		#self : OmReference [ '56' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #apellido,
+			#protocol : #accessing,
+			#sourceCode : 'apellido\r\r\t^ apellido',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.234-03:00' ],
+		#prior : OmReference [ '56' ],
+		#self : OmReference [ '57' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #colContratos,
+			#protocol : #accessing,
+			#sourceCode : 'colContratos\r\r\t^ colContratos',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.236-03:00' ],
+		#prior : OmReference [ '57' ],
+		#self : OmReference [ '58' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'apellido:',
+			#protocol : #accessing,
+			#sourceCode : 'apellido: anObject\r\r\tapellido := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.238-03:00' ],
+		#prior : OmReference [ '58' ],
+		#self : OmReference [ '59' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'colContratos:',
+			#protocol : #accessing,
+			#sourceCode : 'colContratos: anObject\r\r\tcolContratos := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.24-03:00' ],
+		#prior : OmReference [ '59' ],
+		#self : OmReference [ '60' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #contacto,
+			#protocol : #accessing,
+			#sourceCode : 'contacto\r\r\t^ contacto',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.242-03:00' ],
+		#prior : OmReference [ '60' ],
+		#self : OmReference [ '61' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #ciudadResidencia,
+			#protocol : #accessing,
+			#sourceCode : 'ciudadResidencia\r\r\t^ ciudadResidencia',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.244-03:00' ],
+		#prior : OmReference [ '61' ],
+		#self : OmReference [ '62' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'dni:',
+			#protocol : #accessing,
+			#sourceCode : 'dni: anObject\r\r\tdni := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.246-03:00' ],
+		#prior : OmReference [ '62' ],
+		#self : OmReference [ '63' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'contacto:',
+			#protocol : #accessing,
+			#sourceCode : 'contacto: anObject\r\r\tcontacto := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.248-03:00' ],
+		#prior : OmReference [ '63' ],
+		#self : OmReference [ '64' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'ciudadResidencia:',
+			#protocol : #accessing,
+			#sourceCode : 'ciudadResidencia: anObject\r\r\tciudadResidencia := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.25-03:00' ],
+		#prior : OmReference [ '64' ],
+		#self : OmReference [ '65' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cliente,
+				#isMetaSide : false
+			},
+			#name : #'cancelarContratoA:',
+			#protocol : #punto_e,
+			#sourceCode : 'cancelarContratoA: unNroContrato\r|elContrato elReembolso elViaje laFecha laCantPersonas|\relContrato  := (colContratos detect: [:cdaContrato | (cdaContrato getNroContrato = unNroContrato  )]).\relReembolso := elContrato reembolsar.\relViaje := elContrato getRefViaje.\rlaFecha := elContrato getFechaViaje.\rlaCantPersonas := elContrato getCantPersonas.\relViaje liberarCupo: laCantPersonas enFecha: laFecha .\rcolContratos remove: [ :cdaContrato | cdaContrato = elContrato].\r^ elReembolso .',
+			#stamp : 'Caiu 7/29/2023 23:22',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.304-03:00' ],
+		#prior : OmReference [ '65' ],
+		#self : OmReference [ '66' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Cliente class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conDni:conCiudadResidencia:conContacto:conContrasenia:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unApellido conDni: unDni conCiudadResidencia: unaCiudad conContacto: unContacto conContrasenia: unaContra\r|nuevoCliente|\rnuevoCliente:=self new.\rnuevoCliente inicializar: unApellido conDni: unDni conCiudadResidencia: unaCiudad conContacto: unContacto conContrasenia: unaContra.\r^ nuevoCliente.\r',
+			#stamp : 'Jere 1/15/2024 20:06',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.306-03:00' ],
+		#prior : OmReference [ '66' ],
+		#self : OmReference [ '67' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Cliente',
+				#definitionSource : 'Cliente subclass: #ClienteFrecuente\r\tinstanceVariableNames: \'millas\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ClienteFrecuente,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ClienteFrecuente,
+						#isMetaSide : false
+					},
+					#name : #millas,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ClienteFrecuente class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ClienteFrecuente class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ClienteFrecuente,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.333-03:00' ],
+		#prior : OmReference [ '67' ],
+		#self : OmReference [ '68' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ClienteFrecuente,
+				#isMetaSide : false
+			},
+			#name : #getMillas,
+			#protocol : #accessing,
+			#sourceCode : 'getMillas\r^ millas.',
+			#stamp : 'Jere 7/28/2023 20:47',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.334-03:00' ],
+		#prior : OmReference [ '68' ],
+		#self : OmReference [ '69' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ClienteFrecuente,
+				#isMetaSide : false
+			},
+			#name : #'setMillas:',
+			#protocol : #accessing,
+			#sourceCode : 'setMillas: unasMillas\rmillas := unasMillas.',
+			#stamp : 'Jere 7/28/2023 20:45',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.34-03:00' ],
+		#prior : OmReference [ '69' ],
+		#self : OmReference [ '70' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ClienteFrecuente,
+				#isMetaSide : false
+			},
+			#name : #'cancelarContratoA:',
+			#protocol : #punto_e,
+			#sourceCode : 'cancelarContratoA: unNroContrato\r|elReembolso|\relReembolso := super cancelarContratoA: unNroContrato. \rmillas := millas + elReembolso.\r^ elReembolso .',
+			#stamp : 'Caiu 7/29/2023 23:24',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.342-03:00' ],
+		#prior : OmReference [ '70' ],
+		#self : OmReference [ '71' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ClienteFrecuente,
+				#isMetaSide : false
+			},
+			#name : #'pagarCuotasCFrecuente:conQuiereMillas:conContrato:',
+			#protocol : #queries,
+			#sourceCode : 'pagarCuotasCFrecuente: cantCuotasAPagar conQuiereMillas: quiereMillas conContrato: elContrato\r|rta|.\rrta := elContrato pagarContratoFrecuente: cantCuotasAPagar conQuiereMillas: quiereMillas conCliente: self.\r^ rta.\r',
+			#stamp : 'Jere 7/31/2023 19:58',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.344-03:00' ],
+		#prior : OmReference [ '71' ],
+		#self : OmReference [ '72' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ClienteFrecuente,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar: unasMillas\rmillas:= unasMillas .',
+			#stamp : 'Caiu 7/30/2023 15:56',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.398-03:00' ],
+		#prior : OmReference [ '72' ],
+		#self : OmReference [ '73' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ClienteFrecuente class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conDni:conCiudadResidencia:conContacto:conMillas:conContrasenia:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unApellido conDni: unDni conCiudadResidencia: unaCiudad conContacto: unContacto conMillas: unasMillas conContrasenia: unaContra\r|nuevoClienteFrecuente|\rnuevoClienteFrecuente := self crear: unApellido conDni: unDni conCiudadResidencia: unaCiudad conContacto: unContacto conContrasenia: unaContra.\rnuevoClienteFrecuente inicializar: unasMillas.\r^nuevoClienteFrecuente ',
+			#stamp : 'Jere 1/16/2024 17:34',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.4-03:00' ],
+		#prior : OmReference [ '73' ],
+		#self : OmReference [ '74' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Contrato\r\tinstanceVariableNames: \'numero fechaCreacion refViaje fechaViaje cantPersonas colCuotas cantCuotas colExcursionesContrato\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Contrato,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #numero,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #fechaCreacion,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #refViaje,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #fechaViaje,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #cantPersonas,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #colCuotas,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #cantCuotas,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Contrato,
+						#isMetaSide : false
+					},
+					#name : #colExcursionesContrato,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Contrato class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Contrato class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Contrato,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.429-03:00' ],
+		#prior : OmReference [ '74' ],
+		#self : OmReference [ '75' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #numero,
+			#protocol : #accessing,
+			#sourceCode : 'numero\r\r\t^ numero',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.431-03:00' ],
+		#prior : OmReference [ '75' ],
+		#self : OmReference [ '76' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #refViaje,
+			#protocol : #accessing,
+			#sourceCode : 'refViaje\r\r\t^ refViaje',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.435-03:00' ],
+		#prior : OmReference [ '76' ],
+		#self : OmReference [ '77' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'cantCuotas:',
+			#protocol : #accessing,
+			#sourceCode : 'cantCuotas: anObject\r\r\tcantCuotas := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.438-03:00' ],
+		#prior : OmReference [ '77' ],
+		#self : OmReference [ '78' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #fechaViaje,
+			#protocol : #accessing,
+			#sourceCode : 'fechaViaje\r\r\t^ fechaViaje',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.441-03:00' ],
+		#prior : OmReference [ '78' ],
+		#self : OmReference [ '79' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #cantPersonas,
+			#protocol : #accessing,
+			#sourceCode : 'cantPersonas\r\r\t^ cantPersonas',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.443-03:00' ],
+		#prior : OmReference [ '79' ],
+		#self : OmReference [ '80' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCuotas,
+			#protocol : #accessing,
+			#sourceCode : 'getCuotas\r^ colCuotas.',
+			#stamp : 'Jere 7/28/2023 20:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.446-03:00' ],
+		#prior : OmReference [ '80' ],
+		#self : OmReference [ '81' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'refViaje:',
+			#protocol : #accessing,
+			#sourceCode : 'refViaje: anObject\r\r\trefViaje := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.448-03:00' ],
+		#prior : OmReference [ '81' ],
+		#self : OmReference [ '82' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'colCuotas:',
+			#protocol : #accessing,
+			#sourceCode : 'colCuotas: anObject\r\r\tcolCuotas := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.451-03:00' ],
+		#prior : OmReference [ '82' ],
+		#self : OmReference [ '83' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #cantCuotas,
+			#protocol : #accessing,
+			#sourceCode : 'cantCuotas\r\r\t^ cantCuotas',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.454-03:00' ],
+		#prior : OmReference [ '83' ],
+		#self : OmReference [ '84' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'numero:',
+			#protocol : #accessing,
+			#sourceCode : 'numero: anObject\r\r\tnumero := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.456-03:00' ],
+		#prior : OmReference [ '84' ],
+		#self : OmReference [ '85' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'cantPersonas:',
+			#protocol : #accessing,
+			#sourceCode : 'cantPersonas: anObject\r\r\tcantPersonas := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.458-03:00' ],
+		#prior : OmReference [ '85' ],
+		#self : OmReference [ '86' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'fechaViaje:',
+			#protocol : #accessing,
+			#sourceCode : 'fechaViaje: anObject\r\r\tfechaViaje := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.46-03:00' ],
+		#prior : OmReference [ '86' ],
+		#self : OmReference [ '87' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getNroContrato,
+			#protocol : #accessing,
+			#sourceCode : 'getNroContrato\r^ numero ',
+			#stamp : 'Caiu 7/29/2023 23:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.463-03:00' ],
+		#prior : OmReference [ '87' ],
+		#self : OmReference [ '88' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #colCuotas,
+			#protocol : #accessing,
+			#sourceCode : 'colCuotas\r\r\t^ colCuotas',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.465-03:00' ],
+		#prior : OmReference [ '88' ],
+		#self : OmReference [ '89' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'fechaCreacion:',
+			#protocol : #accessing,
+			#sourceCode : 'fechaCreacion: anObject\r\r\tfechaCreacion := anObject',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.467-03:00' ],
+		#prior : OmReference [ '89' ],
+		#self : OmReference [ '90' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #fechaCreacion,
+			#protocol : #accessing,
+			#sourceCode : 'fechaCreacion\r\r\t^ fechaCreacion',
+			#stamp : 'Caiu 7/22/2023 14:37',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.468-03:00' ],
+		#prior : OmReference [ '90' ],
+		#self : OmReference [ '91' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getRefViaje,
+			#protocol : #accessing,
+			#sourceCode : 'getRefViaje \r^ refViaje ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.47-03:00' ],
+		#prior : OmReference [ '91' ],
+		#self : OmReference [ '92' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getFechaViaje,
+			#protocol : #accessing,
+			#sourceCode : 'getFechaViaje\r^ fechaViaje ',
+			#stamp : 'Caiu 7/30/2023 00:09',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.473-03:00' ],
+		#prior : OmReference [ '92' ],
+		#self : OmReference [ '93' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'tieneViaje:',
+			#protocol : #queries,
+			#sourceCode : 'tieneViaje: unNombreViaje\r^ refViaje esIgual: unNombreViaje.',
+			#stamp : 'Jere 7/30/2023 19:42',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.477-03:00' ],
+		#prior : OmReference [ '93' ],
+		#self : OmReference [ '94' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'eliminarCuotas:',
+			#protocol : #queries,
+			#sourceCode : 'eliminarCuotas: cuotasAPagar\t\t\t\r\t"este metodo da por sentado que la coleccion de cuotas está ordenada de modo que la ultima cuota es la mas proxima a vencer"\r\t|pagoExitoso cuotasAPagarAux |\r\tcuotasAPagarAux := cuotasAPagar.\r"chequea que efectivamene tenga cuotas que pagar"\r 1 to: cuotasAPagarAux  size do: [ colCuotas detect: [ :unaCuota| (unaCuota cuotaPagada) ifTrue:[ unaCuota pagar.   cuotasAPagarAux := (cuotasAPagarAux - 1).pagoExitoso := true.  ] ]. ]. \r\t\r\t\t\t\t\r\t^ pagoExitoso .\r\t\r\t ',
+			#stamp : 'GiuliVicentino 12/12/2023 17:42',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.479-03:00' ],
+		#prior : OmReference [ '94' ],
+		#self : OmReference [ '95' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #efectivizarContratoB,
+			#protocol : #queries,
+			#sourceCode : 'efectivizarContratoB\r|efectivizado|\refectivizado := ((cantCuotas  = 0) & (( fechaViaje > ((Date today) addDays: 7 )))).\r^ efectivizado .',
+			#stamp : 'Caiu 7/30/2023 00:33',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.482-03:00' ],
+		#prior : OmReference [ '95' ],
+		#self : OmReference [ '96' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conFechaCreacion:conViaje:conFechaViaje:conCantPersonas:conColCuotas:conCantCuotas:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar: unNumero conFechaCreacion: unaFechaCreacion conViaje: unViaje conFechaViaje: unaFechaV conCantPersonas:unaCantPersonas conColCuotas:unaColCuotas conCantCuotas:unaCant\rnumero:=unNumero.\rfechaCreacion :=unaFechaCreacion .\rrefViaje := unViaje .\rfechaViaje := unaFechaV .\rcolCuotas := unaColCuotas .\rcantCuotas := unaCant .\rcantPersonas := unaCantPersonas .\rcolExcursionesContrato := OrderedCollection new.',
+			#stamp : 'GiuliVicentino 1/3/2024 22:46',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.485-03:00' ],
+		#prior : OmReference [ '96' ],
+		#self : OmReference [ '97' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'agregarExcursionOp:para:',
+			#protocol : #queries,
+			#sourceCode : 'agregarExcursionOp: unaExcursion para: unaCantPersonas\r\t|agregado|\r\t(unaCantPersonas <= cantPersonas) ifTrue: [(unaExcursion actualizarCantPersonasE: unaCantPersonas ).\r\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(refViaje actualizarExcursionesEnViaje: unaExcursion).\r\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(agregado := true).\r\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tcolExcursionesContrato add: unaExcursion.] \r\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\t\t\t\t\t\t\t\t\t\t\t\tifFalse: (agregado := false).\r\t\r\t^ agregado.  \r\t',
+			#stamp : 'GiuliVicentino 1/3/2024 23:15',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.487-03:00' ],
+		#prior : OmReference [ '97' ],
+		#self : OmReference [ '98' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'esIgual:',
+			#protocol : #queries,
+			#sourceCode : 'esIgual: unNumContrato\r^unNumContrato = numero ',
+			#stamp : 'GiuliannaVicentino 7/31/2023 20:04',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.491-03:00' ],
+		#prior : OmReference [ '98' ],
+		#self : OmReference [ '99' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #revisarCuotas,
+			#protocol : #queries,
+			#sourceCode : 'revisarCuotas\r|rta|.\r(colCuotas size > 0)ifTrue:[rta := colCuotas detect:[:cuota | cuota revisarFechaVencimiento] ifNone:[nil]].\r^ rta isNotNil. ',
+			#stamp : 'Jere 7/31/2023 19:29',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.495-03:00' ],
+		#prior : OmReference [ '99' ],
+		#self : OmReference [ '100' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'pagarContratoFrecuente:conQuiereMillas:conCliente:',
+			#protocol : #queries,
+			#sourceCode : 'pagarContratoFrecuente: cantCuotasPagar conQuiereMillas: quiereMillas conCliente: unCliente\r|pagoExitoso costoTotal millasPosibles|.\rpagoExitoso := self cancelarCuotas: cantCuotasPagar.\r(pagoExitoso & quiereMillas) ifTrue:\r\t[\r\t\t|millasCliente|.\r\t\tmillasCliente := unCliente getMillas.\r\t\tcostoTotal := refViaje obtenerCostoTotal: cantPersonas.\r\t\tmillasPosibles := costoTotal * 0.10.\r\t\t(millasCliente >= millasPosibles) ifTrue:[unCliente setMillas: millasCliente-millasPosibles].\r\t].\r^ pagoExitoso.\r',
+			#stamp : 'Jere 7/28/2023 20:49',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.51-03:00' ],
+		#prior : OmReference [ '100' ],
+		#self : OmReference [ '101' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #'cancelarCuotas:',
+			#protocol : #queries,
+			#sourceCode : 'cancelarCuotas: cuotasAPagar\r"este metodo da por sentado que la coleccion de cuotas está ordenada de modo que la ultima cuota es la mas proxima a vencer"\r    |pagoExitoso cuotasAPagarAux cuotaAux|\r    cuotasAPagarAux := cuotasAPagar.\r"chequea que efectivamene tenga cuotas que pagar"\r 1 to: cuotasAPagarAux  do: [:each|\r\t\r      cuotaAux := colCuotas detect: [:unaCuota| (unaCuota cuotaPagada)].\r cuotaAux ifNotNil: [cuotaAux pagar. pagoExitoso := true]\r\r    ].\r\r\r\r    ^ pagoExitoso .',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.513-03:00' ],
+		#prior : OmReference [ '101' ],
+		#self : OmReference [ '102' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Contrato,
+				#isMetaSide : false
+			},
+			#name : #getCantPersonas,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'getCantPersonas\r^ cantPersonas ',
+			#stamp : 'Caiu 7/30/2023 00:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.57-03:00' ],
+		#prior : OmReference [ '102' ],
+		#self : OmReference [ '103' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Contrato class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conFechaCreacion:conViaje:conFechaViaje:conCantPersonas:conColCuotas:conCantCuotas:',
+			#protocol : #constructor,
+			#sourceCode : 'crear:unNumero conFechaCreacion: unaFechaCreacion conViaje: unViaje conFechaViaje: unaFechaV conCantPersonas:unaCantPersonas conColCuotas:unaColCuotas conCantCuotas:unaCant\r|nuevoContrato|\rnuevoContrato := self new.\rnuevoContrato inicializar: unNumero conFechaCreacion: unaFechaCreacion conViaje: unViaje conFechaViaje: unaFechaV conCantPersonas:unaCantPersonas conColCuotas:unaColCuotas conCantCuotas:unaCant.\r^nuevoContrato ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.573-03:00' ],
+		#prior : OmReference [ '103' ],
+		#self : OmReference [ '104' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Contrato',
+				#definitionSource : 'Contrato subclass: #ContratoFlexible\r\tinstanceVariableNames: \'valorPlus\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ContratoFlexible,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ContratoFlexible,
+						#isMetaSide : false
+					},
+					#name : #valorPlus,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ContratoFlexible class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ContratoFlexible class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ContratoFlexible,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.602-03:00' ],
+		#prior : OmReference [ '104' ],
+		#self : OmReference [ '105' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ContratoFlexible,
+				#isMetaSide : false
+			},
+			#name : #reembolsar,
+			#protocol : #punto_e,
+			#sourceCode : 'reembolsar\r|elReembolso elCosto elImpuesto|\relCosto := refViaje getCostoXPersona.\relImpuesto := refViaje getImpuesto.\r((Date today) <= (fechaViaje addMonths: -3))ifTrue: [\r    elReembolso := ((0,75)* ((elCosto * cantPersonas) + elImpuesto )).\r] ifFalse: [\r\telReembolso := ((0,25)* ((elCosto * cantPersonas) + elImpuesto)).\r    ((Date today) > (fechaViaje addMonths: -3) & ((Date today) < (fechaViaje addMonths: -2))) ifTrue: [\r        elReembolso := ((0,50)* ((elCosto * cantPersonas) + elImpuesto )).\r    ] \r    ].\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \r^ elReembolso \r',
+			#stamp : 'Jere 7/30/2023 19:54',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.607-03:00' ],
+		#prior : OmReference [ '105' ],
+		#self : OmReference [ '106' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ContratoFlexible,
+				#isMetaSide : false
+			},
+			#name : #'modificarContratoB:',
+			#protocol : #punto_e,
+			#sourceCode : 'modificarContratoB: unaFecha \r|modificacionValida|\r\r(self tieneViajeOrganizado) ifTrue: [ (refViaje buscaFecha: unaFecha conCupo: cantPersonas )ifTrue: [ self fechaViaje: unaFecha. modificacionValida := true.  ] ifFalse: [ modificacionValida := false ]  ] ifFalse: [ modificacionValida := false ].\r^ modificacionValida. ',
+			#stamp : 'Caiu 7/29/2023 23:02',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.611-03:00' ],
+		#prior : OmReference [ '106' ],
+		#self : OmReference [ '107' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ContratoFlexible,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unValorPlus\rvalorPlus :=unValorPlus ',
+			#stamp : 'GiuliannaVicentino 7/21/2023 20:05',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.615-03:00' ],
+		#prior : OmReference [ '107' ],
+		#self : OmReference [ '108' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ContratoFlexible,
+				#isMetaSide : false
+			},
+			#name : #inicializar,
+			#protocol : #queries,
+			#sourceCode : 'inicializar\rvalorPlus := (((refViaje getCostoXPersona) * cantPersonas) + (((refViaje getCostoXPersona) * cantPersonas)*0.10)).',
+			#stamp : 'GiuliVicentino 1/3/2024 22:23',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.671-03:00' ],
+		#prior : OmReference [ '108' ],
+		#self : OmReference [ '109' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ContratoFlexible class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conFechaCreacion:conViaje:conFechaViaje:conCantPersonas:conColCuotas:conCantCuotas:conValorPlus:',
+			#protocol : #constructor,
+			#sourceCode : 'crear:unNumero conFechaCreacion: unaFechaCreacion conViaje: unViaje conFechaViaje: unaFechaV conCantPersonas:unaCantPersonas conColCuotas:unaColCuotas conCantCuotas:unaCant conValorPlus: unValorPlus\r\t|nuevoContratoFlexible|\r\tnuevoContratoFlexible := self crear:unNumero conFechaCreacion: unaFechaCreacion conViaje: unViaje conFechaViaje: unaFechaV conCantPersonas:unaCantPersonas conColCuotas:unaColCuotas conCantCuotas:unaCant.\r\tnuevoContratoFlexible inicializar.\r\t^nuevoContratoFlexible ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.674-03:00' ],
+		#prior : OmReference [ '109' ],
+		#self : OmReference [ '110' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Cuota\r\tinstanceVariableNames: \'fechaVencimiento estado\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Cuota,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cuota,
+						#isMetaSide : false
+					},
+					#name : #fechaVencimiento,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Cuota,
+						#isMetaSide : false
+					},
+					#name : #estado,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Cuota class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Cuota class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Cuota,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.704-03:00' ],
+		#prior : OmReference [ '110' ],
+		#self : OmReference [ '111' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cuota,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unaFecha\rfechaVencimiento := unaFecha .\restado:= false\r',
+			#stamp : 'GiuliVicentino 12/12/2023 17:23',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.706-03:00' ],
+		#prior : OmReference [ '111' ],
+		#self : OmReference [ '112' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cuota,
+				#isMetaSide : false
+			},
+			#name : #pagar,
+			#protocol : #queries,
+			#sourceCode : 'pagar\restado:=true',
+			#stamp : 'GiuliVicentino 12/12/2023 17:23',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.709-03:00' ],
+		#prior : OmReference [ '112' ],
+		#self : OmReference [ '113' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cuota,
+				#isMetaSide : false
+			},
+			#name : #cuotaPagada,
+			#protocol : #queries,
+			#sourceCode : 'cuotaPagada\r^estado not.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.712-03:00' ],
+		#prior : OmReference [ '113' ],
+		#self : OmReference [ '114' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Cuota,
+				#isMetaSide : false
+			},
+			#name : #revisarFechaVencimiento,
+			#protocol : #queries,
+			#sourceCode : 'revisarFechaVencimiento\r^ ((Date today<fechaVencimiento) & (Date today>= (fechaVencimiento - 7 days))). "es decir que esta en los ultimos 7 dias"',
+			#stamp : 'Jere 7/31/2023 19:28',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.778-03:00' ],
+		#prior : OmReference [ '114' ],
+		#self : OmReference [ '115' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Cuota class',
+				#isMetaSide : true
+			},
+			#name : #'crear:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unaFecha\r\t|nuevaCuota|\r\tnuevaCuota := self new.\r\tnuevaCuota inicializar:unaFecha.\r\t^nuevaCuota ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.78-03:00' ],
+		#prior : OmReference [ '115' ],
+		#self : OmReference [ '116' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #EmpresaTurismo\r\tinstanceVariableNames: \'colClientes colViajes\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #EmpresaTurismo,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #EmpresaTurismo,
+						#isMetaSide : false
+					},
+					#name : #colClientes,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #EmpresaTurismo,
+						#isMetaSide : false
+					},
+					#name : #colViajes,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'EmpresaTurismo class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'EmpresaTurismo class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #EmpresaTurismo,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.811-03:00' ],
+		#prior : OmReference [ '116' ],
+		#self : OmReference [ '117' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'colClientes:',
+			#protocol : #accessing,
+			#sourceCode : 'colClientes: anObject\r\r\tcolClientes := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.814-03:00' ],
+		#prior : OmReference [ '117' ],
+		#self : OmReference [ '118' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #colViajes,
+			#protocol : #accessing,
+			#sourceCode : 'colViajes\r\r\t^ colViajes',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.817-03:00' ],
+		#prior : OmReference [ '118' ],
+		#self : OmReference [ '119' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #colClientes,
+			#protocol : #accessing,
+			#sourceCode : 'colClientes\r\r\t^ colClientes',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.819-03:00' ],
+		#prior : OmReference [ '119' ],
+		#self : OmReference [ '120' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'colViajes:',
+			#protocol : #accessing,
+			#sourceCode : 'colViajes: anObject\r\r\tcolViajes := anObject',
+			#stamp : 'Caiu 7/22/2023 13:48',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.823-03:00' ],
+		#prior : OmReference [ '120' ],
+		#self : OmReference [ '121' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'modificarCostoPersona:conNombreViaje:',
+			#protocol : #queries,
+			#sourceCode : 'modificarCostoPersona: nuevoCosto conNombreViaje: nombreViaje\r|unViaje|.\runViaje := colViajes detect:[:viaje | viaje esIgual: nombreViaje].\runViaje setCostoPersona: nuevoCosto.\r',
+			#stamp : 'Jere 7/29/2023 22:07',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.826-03:00' ],
+		#prior : OmReference [ '121' ],
+		#self : OmReference [ '122' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'listar:conOtraFecha:',
+			#protocol : #queries,
+			#sourceCode : 'listar: fecha1 conOtraFecha: fecha2\r|listado|\rlistado:=OrderedCollection new.\rlistado := colViajes select:[:unViaje|unViaje verificarFecha: fecha1 conOtraFecha: fecha2].\r^ listado.',
+			#stamp : 'Jere 7/31/2023 19:16',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.832-03:00' ],
+		#prior : OmReference [ '122' ],
+		#self : OmReference [ '123' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'generarContrato:conNum:conViaje:conFecha:conPersonas:conCuotas:',
+			#protocol : #queries,
+			#sourceCode : 'generarContrato: unDni conNum: unNumero conViaje: unViaje conFecha: unaFecha conPersonas: personas conCuotas: cuotas\r|unCliente|.\r\runCliente := colClientes detect:[:cliente | cliente esIgual: unDni] ifNone:[nil].\r(unCliente) ifNotNil:[unCliente agregarContrato: unNumero conViaje: unViaje conFechaViaje:  unaFecha conPersonas: personas conCuotas: cuotas].',
+			#stamp : 'GiuliVicentino 12/12/2023 17:53',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.834-03:00' ],
+		#prior : OmReference [ '123' ],
+		#self : OmReference [ '124' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'agregarCliente:',
+			#protocol : #queries,
+			#sourceCode : 'agregarCliente: unCliente\rcolClientes add:unCliente.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.837-03:00' ],
+		#prior : OmReference [ '124' ],
+		#self : OmReference [ '125' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #revisionDiariaContratos,
+			#protocol : #queries,
+			#sourceCode : 'revisionDiariaContratos\r|clientesANotificar|.\rclientesANotificar := colClientes select:[:cliente | cliente revisarContratos].\r"se retornan los clientes y luego se les deberia mandar una notificacion a cada uno"\r^ clientesANotificar.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.84-03:00' ],
+		#prior : OmReference [ '125' ],
+		#self : OmReference [ '126' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'modificarFechaViaje:conFecha1:conFecha2:',
+			#protocol : #queries,
+			#sourceCode : 'modificarFechaViaje: unNombreViaje conFecha1: fecha1 conFecha2: fecha2\r|elViaje|.\relViaje := colViajes detect:[:unViaje | unViaje esIgual: unNombreViaje].\r',
+			#stamp : 'Jere 7/30/2023 20:00',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.843-03:00' ],
+		#prior : OmReference [ '126' ],
+		#self : OmReference [ '127' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r|rta|.\rrta := colClientes detect:[:unCliente | unCliente esIgual: unDni].\r^ rta.',
+			#stamp : 'Jere 1/15/2024 20:01',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.845-03:00' ],
+		#prior : OmReference [ '127' ],
+		#self : OmReference [ '128' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'agregarViaje:',
+			#protocol : #queries,
+			#sourceCode : 'agregarViaje: unViaje\rcolViajes add:unViaje.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.848-03:00' ],
+		#prior : OmReference [ '128' ],
+		#self : OmReference [ '129' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'modificarValorImpuestos:conNombreViaje:',
+			#protocol : #queries,
+			#sourceCode : 'modificarValorImpuestos: nuevoValor conNombreViaje: nombreViaje\r|elViaje|.\relViaje := colViajes detect:[:viaje | viaje esIgual: nombreViaje].\relViaje setValorImpuesto: nuevoValor.',
+			#stamp : 'Jere 7/29/2023 22:08',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.85-03:00' ],
+		#prior : OmReference [ '129' ],
+		#self : OmReference [ '130' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'verificarContrasenia:conContrasenia:',
+			#protocol : #queries,
+			#sourceCode : 'verificarContrasenia: unCliente conContrasenia: unaContrasenia\r|correcta contraseniaCorrecta|.\rcontraseniaCorrecta := unCliente getContrasenia.\rcorrecta := unaContrasenia = contraseniaCorrecta.\r^ correcta.',
+			#stamp : 'Jere 1/15/2024 20:03',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.851-03:00' ],
+		#prior : OmReference [ '130' ],
+		#self : OmReference [ '131' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #inicializar,
+			#protocol : #queries,
+			#sourceCode : 'inicializar\r colClientes:= OrderedCollection new.\rcolViajes := OrderedCollection new.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.856-03:00' ],
+		#prior : OmReference [ '131' ],
+		#self : OmReference [ '132' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'registrarPagos:conCuotas:conQuiereMillas:',
+			#protocol : #queries,
+			#sourceCode : 'registrarPagos:unNroContrato conCuotas: cantCuotasAPagar conQuiereMillas:quiereMillas\r|clienteAPagar contratoAPagar mensajeRespuesta|.\rclienteAPagar := colClientes detect:[:cadaCliente | cadaCliente tieneContrato: unNroContrato].\r(clienteAPagar) ifNotNil:[contratoAPagar := clienteAPagar  buscarContrato: unNroContrato.].\r\r\r(contratoAPagar) ifNotNil: [quiereMillas ifTrue:[[clienteAPagar  pagarContratoFrecuente:cantCuotasAPagar conQuiereMillas: quiereMillas conCliente:clienteAPagar] ifTrue: [mensajeRespuesta := \'Pago Exitoso\'] ifFalse: [[mensajeRespuesta := \'Error al pagar las Cuotas\']]] ifFalse:[clienteAPagar pagarCuotas: cantCuotasAPagar conContrato:contratoAPagar]].  \r^ mensajeRespuesta.\r',
+			#stamp : 'GiuliannaVicentino 8/1/2023 19:46',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.859-03:00' ],
+		#prior : OmReference [ '132' ],
+		#self : OmReference [ '133' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'cancelarViaje:',
+			#protocol : #queries,
+			#sourceCode : 'cancelarViaje: unNombreViaje\rcolClientes do:[:cliente | cliente eliminarRefViaje: unNombreViaje].',
+			#stamp : 'Jere 7/30/2023 19:49',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.862-03:00' ],
+		#prior : OmReference [ '133' ],
+		#self : OmReference [ '134' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'ModificarContrato:A:',
+			#protocol : #punto_e,
+			#sourceCode : 'ModificarContrato: unNroContrato A: unaFecha\r| elCliente elContrato reembolso|\relContrato := (colClientes   detect: [ :cdaCliente | cdaCliente buscarContrato: unNroContrato  ]).\r( elContrato isNotNil ) ifTrue: [ elCliente := (colClientes   detect: [ :cdaCliente | cdaCliente buscarContrato: unNroContrato.\r\t\t\t\t\t\t\t\t\t\t\t  (elContrato modificarContratoB: unaFecha) ifFalse: [reembolso := (elCliente cancelarContrato: unNroContrato)] . ]) ].\r^ reembolso ',
+			#stamp : 'Caiu 7/29/2023 22:55',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.864-03:00' ],
+		#prior : OmReference [ '134' ],
+		#self : OmReference [ '135' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'efectivizarContratoA:',
+			#protocol : #punto_e,
+			#sourceCode : 'efectivizarContratoA: unNroContrato\r\t|elContrato elCliente|\r\telCliente  := colClientes detect:[:cdaCliente | (cdaCliente getNroContrato)=unNroContrato].\r\t(elCliente) ifNotNil: [elContrato := elCliente buscarContrato: unNroContrato].\r\t^ elContrato efectivizarContratoB.',
+			#stamp : 'Jere 7/30/2023 18:56',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.866-03:00' ],
+		#prior : OmReference [ '135' ],
+		#self : OmReference [ '136' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'agregarExcOpcional:AContrato:paraCantPersonas:',
+			#protocol : #punto_f,
+			#sourceCode : 'agregarExcOpcional: unaExcursion AContrato: nroContrato paraCantPersonas: unaCantPersonas\r\t| agregada elCliente elContrato |\r\telCliente := colClientes detect: [ :cdaCliente | (cdaCliente buscarContrato: nroContrato) isNotNil  ].\r\tTranscript show: \'jeree\'.\r\telCliente ifNotNil: [elContrato:= elCliente buscarContrato:nroContrato.\r\t\t                 agregada := (elContrato agregarExcursionOp:unaExcursion para: unaCantPersonas )].\r\t^ agregada.',
+			#stamp : 'GiuliVicentino 1/3/2024 23:26',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.92-03:00' ],
+		#prior : OmReference [ '136' ],
+		#self : OmReference [ '137' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'EmpresaTurismo class',
+				#isMetaSide : true
+			},
+			#name : #crear,
+			#protocol : #constructor,
+			#sourceCode : 'crear \r|nuevaEmpresa|.\rnuevaEmpresa := self new.\rnuevaEmpresa inicializar.\r^nuevaEmpresa .',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.924-03:00' ],
+		#prior : OmReference [ '137' ],
+		#self : OmReference [ '138' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Etapa\r\tinstanceVariableNames: \'fechaLlegada diasEnCiudad hotel tipoPension listaActividades\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Etapa,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Etapa,
+						#isMetaSide : false
+					},
+					#name : #fechaLlegada,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Etapa,
+						#isMetaSide : false
+					},
+					#name : #diasEnCiudad,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Etapa,
+						#isMetaSide : false
+					},
+					#name : #hotel,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Etapa,
+						#isMetaSide : false
+					},
+					#name : #tipoPension,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Etapa,
+						#isMetaSide : false
+					},
+					#name : #listaActividades,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Etapa class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Etapa class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Etapa,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:24.954-03:00' ],
+		#prior : OmReference [ '138' ],
+		#self : OmReference [ '139' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Etapa,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conDiasEnCiudad:conHotel:conTipoPension:conListaActividades:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unaFechaLlegada conDiasEnCiudad:unosDias conHotel:unHotel conTipoPension:unTipo conListaActividades:unaLista\rfechaLlegada :=unaFechaLlegada .\rdiasEnCiudad := unosDias .\rhotel :=unHotel.\rlistaActividades := unaLista',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.017-03:00' ],
+		#prior : OmReference [ '139' ],
+		#self : OmReference [ '140' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Etapa class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conDiasEnCiudad:conHotel:conTipoPension:conListaActividades:',
+			#protocol : #constructor,
+			#sourceCode : 'crear:unaFechaLlegada conDiasEnCiudad:unosDias conHotel:unHotel conTipoPension:unTipo conListaActividades:unaLista\r\t|nuevaEtapa|\r\tnuevaEtapa := self new.\r\tnuevaEtapa inicializar:unaFechaLlegada conDiasEnCiudad:unosDias conHotel:unHotel conTipoPension:unTipo conListaActividades:unaLista.\r\t^ nuevaEtapa ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.02-03:00' ],
+		#prior : OmReference [ '140' ],
+		#self : OmReference [ '141' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Excursion\r\tinstanceVariableNames: \'costo cantPersonasE\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Excursion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Excursion,
+						#isMetaSide : false
+					},
+					#name : #costo,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Excursion,
+						#isMetaSide : false
+					},
+					#name : #cantPersonasE,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Excursion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Excursion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Excursion,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.051-03:00' ],
+		#prior : OmReference [ '141' ],
+		#self : OmReference [ '142' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Excursion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conCantPersonasE:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unCosto conCantPersonasE: unaCant\rcosto := unCosto .\rcantPersonasE := unaCant .',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.053-03:00' ],
+		#prior : OmReference [ '142' ],
+		#self : OmReference [ '143' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Excursion,
+				#isMetaSide : false
+			},
+			#name : #'actualizarCantPersonasE:',
+			#protocol : #queries,
+			#sourceCode : 'actualizarCantPersonasE: unaCantPersonas\rcantPersonasE := unaCantPersonas ',
+			#stamp : 'Caiu 7/29/2023 21:47',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.107-03:00' ],
+		#prior : OmReference [ '143' ],
+		#self : OmReference [ '144' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Excursion class',
+				#isMetaSide : true
+			},
+			#name : #'crar:conCantPersonasE:',
+			#protocol : #constructor,
+			#sourceCode : 'crar:unCosto conCantPersonasE: unaCant\r\t|nuevaExcursion|\r\tnuevaExcursion := self new.\r\tnuevaExcursion inicializar:unCosto conCantPersonasE: unaCant.\r\t^nuevaExcursion ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.11-03:00' ],
+		#prior : OmReference [ '144' ],
+		#self : OmReference [ '145' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Excursion class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conCantPersonasE:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unCosto conCantPersonasE: unaCant\r\t|nuevaExcursion|\r\tnuevaExcursion := self new.\r\tnuevaExcursion inicializar:unCosto conCantPersonasE: unaCant.\r\t^nuevaExcursion ',
+			#stamp : 'Caiu 7/30/2023 17:05',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.112-03:00' ],
+		#prior : OmReference [ '145' ],
+		#self : OmReference [ '146' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Object',
+				#definitionSource : 'Object subclass: #Viaje\r\tinstanceVariableNames: \'nombre costoPersona impuestos\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Viaje,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Viaje,
+						#isMetaSide : false
+					},
+					#name : #nombre,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Viaje,
+						#isMetaSide : false
+					},
+					#name : #costoPersona,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Viaje,
+						#isMetaSide : false
+					},
+					#name : #impuestos,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Viaje class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Viaje class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Viaje,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.143-03:00' ],
+		#prior : OmReference [ '146' ],
+		#self : OmReference [ '147' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'setValorImpuesto:',
+			#protocol : #accessing,
+			#sourceCode : 'setValorImpuesto: nuevoValor\rimpuestos := nuevoValor.',
+			#stamp : 'Jere 7/29/2023 22:06',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.146-03:00' ],
+		#prior : OmReference [ '147' ],
+		#self : OmReference [ '148' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #getNombre,
+			#protocol : #accessing,
+			#sourceCode : 'getNombre\r^ nombre.',
+			#stamp : 'Jere 7/29/2023 21:17',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.149-03:00' ],
+		#prior : OmReference [ '148' ],
+		#self : OmReference [ '149' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #getCostoXPersona,
+			#protocol : #accessing,
+			#sourceCode : 'getCostoXPersona\r^ costoPersona.',
+			#stamp : 'Jere 7/30/2023 19:52',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.151-03:00' ],
+		#prior : OmReference [ '149' ],
+		#self : OmReference [ '150' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'setCostoPersona:',
+			#protocol : #accessing,
+			#sourceCode : 'setCostoPersona: nuevoCosto\rcostoPersona := nuevoCosto.',
+			#stamp : 'Jere 7/29/2023 22:06',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.154-03:00' ],
+		#prior : OmReference [ '150' ],
+		#self : OmReference [ '151' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #getImpuesto,
+			#protocol : #accessing,
+			#sourceCode : 'getImpuesto\r^ impuestos.',
+			#stamp : 'Jere 7/30/2023 19:53',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.156-03:00' ],
+		#prior : OmReference [ '151' ],
+		#self : OmReference [ '152' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'verificarFecha:conOtraFecha:',
+			#protocol : #queries,
+			#sourceCode : 'verificarFecha: fecha1 conOtraFecha: fecha2\rself subclassResponsibility.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.158-03:00' ],
+		#prior : OmReference [ '152' ],
+		#self : OmReference [ '153' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'obtenerCostoTotal:',
+			#protocol : #queries,
+			#sourceCode : 'obtenerCostoTotal: cantPersonas\r^ (costoPersona * cantPersonas) + impuestos.',
+			#stamp : 'Jere 7/28/2023 20:36',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.16-03:00' ],
+		#prior : OmReference [ '153' ],
+		#self : OmReference [ '154' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'esIgual:',
+			#protocol : #queries,
+			#sourceCode : 'esIgual: unNombre\r^ nombre = unNombre.',
+			#stamp : 'Jere 7/29/2023 21:15',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.162-03:00' ],
+		#prior : OmReference [ '154' ],
+		#self : OmReference [ '155' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'modificarFecha:conFecha2:',
+			#protocol : #queries,
+			#sourceCode : 'modificarFecha: fecha1 conFecha2: fecha2\rself subclassResponsibility.',
+			#stamp : 'Jere 7/30/2023 19:09',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.163-03:00' ],
+		#prior : OmReference [ '155' ],
+		#self : OmReference [ '156' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Viaje,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conCostoPersona:conImpuestos:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos\rnombre := unNombre .\rcostoPersona :=unCosto .\rimpuestos := unosImpuestos .',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.228-03:00' ],
+		#prior : OmReference [ '156' ],
+		#self : OmReference [ '157' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'Viaje class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conCostoPersona:conImpuestos:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos\r|nuevoViaje|\rnuevoViaje := self new.\rnuevoViaje inicializar:unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos.\r^nuevoViaje ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.23-03:00' ],
+		#prior : OmReference [ '157' ],
+		#self : OmReference [ '158' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Viaje',
+				#definitionSource : 'Viaje subclass: #ViajeEspecial\r\tinstanceVariableNames: \'disponibilidad fechaSalida ciudad fechaRegreso\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ViajeEspecial,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeEspecial,
+						#isMetaSide : false
+					},
+					#name : #disponibilidad,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeEspecial,
+						#isMetaSide : false
+					},
+					#name : #fechaSalida,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeEspecial,
+						#isMetaSide : false
+					},
+					#name : #ciudad,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeEspecial,
+						#isMetaSide : false
+					},
+					#name : #fechaRegreso,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ViajeEspecial class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ViajeEspecial class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ViajeEspecial,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.26-03:00' ],
+		#prior : OmReference [ '158' ],
+		#self : OmReference [ '159' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeEspecial,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conFechaSalida:conCiudad:conFechaRegreso:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unaDisponibilidad conFechaSalida: unaFechaS conCiudad:unaCiudad conFechaRegreso:unaFechaR\rdisponibilidad := unaDisponibilidad .\rfechaSalida :=unaFechaS .\rfechaRegreso := unaFechaR .\rciudad:= unaCiudad.\r',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.264-03:00' ],
+		#prior : OmReference [ '159' ],
+		#self : OmReference [ '160' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeEspecial,
+				#isMetaSide : false
+			},
+			#name : #'verificarFecha:conOtraFecha:',
+			#protocol : #queries,
+			#sourceCode : 'verificarFecha: fecha1 conOtraFecha: fecha2\r|rta|.\rrta := false.\r((disponibilidad) > 0 & (fechaSalida>=fecha1) & (fechaSalida<=fecha2)) ifTrue:[rta := true].\r^ rta.',
+			#stamp : 'Jere 7/31/2023 19:19',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.266-03:00' ],
+		#prior : OmReference [ '160' ],
+		#self : OmReference [ '161' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeEspecial,
+				#isMetaSide : false
+			},
+			#name : #'modificarFecha:conFecha2:',
+			#protocol : #queries,
+			#sourceCode : 'modificarFecha: fecha1 conFecha2: fecha2\r|fueModificada|.\rfueModificada := false.\r(fecha2>=fecha1) ifTrue:[fueModificada := true. fechaSalida := fecha1. fechaRegreso := fecha2].\r^ fueModificada.',
+			#stamp : 'Jere 7/30/2023 19:10',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.323-03:00' ],
+		#prior : OmReference [ '161' ],
+		#self : OmReference [ '162' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ViajeEspecial class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conCostoPersona:conImpuestos:conDisponibilidad:conFechaSalida:conCiudad:conFechaRegreso:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos conDisponibilidad:unaDisponibilidad conFechaSalida: unaFechaS conCiudad:unaCiudad conFechaRegreso:unaFechaR\r|nuevoViajeEspecial|\rnuevoViajeEspecial := self crear: unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos.\rnuevoViajeEspecial inicializar:unaDisponibilidad conFechaSalida: unaFechaS conCiudad:unaCiudad conFechaRegreso:unaFechaR.\r^nuevoViajeEspecial ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.325-03:00' ],
+		#prior : OmReference [ '162' ],
+		#self : OmReference [ '163' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'Viaje',
+				#definitionSource : 'Viaje subclass: #ViajeOrganizado\r\tinstanceVariableNames: \'cantDias colEtapas colOpcionesSalida colExcursiones\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ViajeOrganizado,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeOrganizado,
+						#isMetaSide : false
+					},
+					#name : #cantDias,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeOrganizado,
+						#isMetaSide : false
+					},
+					#name : #colEtapas,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeOrganizado,
+						#isMetaSide : false
+					},
+					#name : #colOpcionesSalida,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #ViajeOrganizado,
+						#isMetaSide : false
+					},
+					#name : #colExcursiones,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ViajeOrganizado class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ViajeOrganizado class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ViajeOrganizado,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.356-03:00' ],
+		#prior : OmReference [ '163' ],
+		#self : OmReference [ '164' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'liberarCupo:enFecha:',
+			#protocol : #queries,
+			#sourceCode : 'liberarCupo: laCantPersonas enFecha: laFecha \r"si existe una opSalida en colOpcionesSalida tal que fechaSalida == laFecha entonces cupo := cupo + laCantPersonas "',
+			#stamp : 'Caiu 7/30/2023 00:13',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.359-03:00' ],
+		#prior : OmReference [ '164' ],
+		#self : OmReference [ '165' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conColEtapas:conColOpcionesSalida:',
+			#protocol : #queries,
+			#sourceCode : 'inicializar:unaCantDias conColEtapas:unaColEtapas conColOpcionesSalida: unaColOpSalida\rcantDias := unaCantDias .\rcolEtapas := unaColEtapas .\rcolOpcionesSalida := unaColOpSalida .\rcolExcursiones := OrderedCollection new.',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.362-03:00' ],
+		#prior : OmReference [ '165' ],
+		#self : OmReference [ '166' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'agregarExcursion:',
+			#protocol : #queries,
+			#sourceCode : 'agregarExcursion: unaExcursion\rcolExcursiones add:unaExcursion',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.365-03:00' ],
+		#prior : OmReference [ '166' ],
+		#self : OmReference [ '167' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'actualizarExcursionesEnViaje:',
+			#protocol : #queries,
+			#sourceCode : 'actualizarExcursionesEnViaje: unaExcursion\rcolExcursiones add: unaExcursion.',
+			#stamp : 'Caiu 7/29/2023 21:46',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.368-03:00' ],
+		#prior : OmReference [ '167' ],
+		#self : OmReference [ '168' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'modificarFecha:conFecha2:',
+			#protocol : #queries,
+			#sourceCode : 'modificarFecha: fecha1 conFecha2: fecha2\r|fueModificada valorAux|.\rfueModificada := false.\rcolOpcionesSalida keysAndValuesDo: [:clave :valor | (clave=fecha1) ifTrue:[valorAux := valor.colOpcionesSalida remove: clave. colOpcionesSalida at:fecha2 put: valorAux. fueModificada := true]].\r^ fueModificada.',
+			#stamp : 'Jere 7/30/2023 19:27',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.371-03:00' ],
+		#prior : OmReference [ '168' ],
+		#self : OmReference [ '169' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'buscaFecha:conCupo:',
+			#protocol : #queries,
+			#sourceCode : 'buscaFecha: laFecha conCupo: laCantPersonas\r|fechaDisponible|\rfechaDisponible := colOpcionesSalida detect: [ :cdaOpSalida | cdaOpSalida " como comparo elementos de una dupla??"  ].\r^ fechaDisponible .',
+			#stamp : 'Caiu 7/29/2023 23:07',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.376-03:00' ],
+		#prior : OmReference [ '169' ],
+		#self : OmReference [ '170' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #ViajeOrganizado,
+				#isMetaSide : false
+			},
+			#name : #'verificarFecha:conOtraFecha:',
+			#protocol : #queries,
+			#sourceCode : 'verificarFecha: fecha1 conOtraFecha: fecha2\r|rta|\rrta:=true.\rcolOpcionesSalida keysAndValuesDo: [:clave :cupo| ((clave>=fecha1) & (clave<=fecha2) & (cupo>0)) ifTrue:[rta:=true]].\r^ rta.',
+			#stamp : 'Jere 7/31/2023 19:20',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.436-03:00' ],
+		#prior : OmReference [ '170' ],
+		#self : OmReference [ '171' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ViajeOrganizado class',
+				#isMetaSide : true
+			},
+			#name : #'crear:conCostoPersona:conImpuestos:conCantDias:conColEtapas:conColOpcionesSalida:',
+			#protocol : #constructor,
+			#sourceCode : 'crear: unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos conCantDias:unaCantDias conColEtapas:unaColEtapas conColOpcionesSalida: unaColOpSalida\r|nuevoViajeOrganizado|\rnuevoViajeOrganizado := self crear: unNombre conCostoPersona:unCosto conImpuestos:unosImpuestos.\rnuevoViajeOrganizado inicializar:unaCantDias conColEtapas:unaColEtapas conColOpcionesSalida: unaColOpSalida.\r^nuevoViajeOrganizado ',
+			#stamp : '',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.439-03:00' ],
+		#prior : OmReference [ '171' ],
+		#self : OmReference [ '172' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #TPOFINAL-Manifest,
+		#affectedPackageName : #TPOFINAL
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.441-03:00' ],
+		#prior : OmReference [ '172' ],
+		#self : OmReference [ '173' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'PackageManifest',
+				#definitionSource : 'PackageManifest subclass: #ManifestTPOFINAL\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL-Manifest\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestTPOFINAL,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestTPOFINAL class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestTPOFINAL class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestTPOFINAL,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL-Manifest,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.471-03:00' ],
+		#prior : OmReference [ '173' ],
+		#self : OmReference [ '174' ]
+	},
+	#content : EpBehaviorCommentChange {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'PackageManifest',
+				#definitionSource : 'PackageManifest subclass: #ManifestTPOFINAL\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL-Manifest\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #ManifestTPOFINAL,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'ManifestTPOFINAL class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'ManifestTPOFINAL class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #ManifestTPOFINAL,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+				#stamp : '<historical>'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #TPOFINAL-Manifest,
+			#package : #TPOFINAL,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#oldComment : '',
+		#newComment : 'Please describe the package using the class comment of the included manifest class. The manifest class also includes other additional metadata for the package. These meta data are used by other tools such as the SmalllintManifestChecker and the critics Browser',
+		#oldStamp : '',
+		#newStamp : '<historical>'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2024-01-22T10:32:25.541-03:00' ],
+		#prior : OmReference [ '174' ],
+		#self : OmReference [ '175' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'ManifestTPOFINAL class',
+				#isMetaSide : true
+			},
+			#name : #ruleGuardingClauseRuleV1FalsePositive,
+			#protocol : #code-critics,
+			#sourceCode : 'ruleGuardingClauseRuleV1FalsePositive\r\r\t<ignoreForCoverage>\r\t^ #(#(#(#RGPackageDefinition #(#TPOFINAL)) #\'2023-07-28T20:49:39.187-03:00\') )',
+			#stamp : 'Jere 7/28/2023 20:49',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:36:06.297-03:00' ],
+		#prior : OmReference [ '175' ],
+		#self : OmReference [ '176' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema.\rself iniciarSesion.\r',
+			#stamp : 'Jere 1/16/2024 16:59',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema getEmpresa .\rself iniciarSesion.\r ',
+			#stamp : 'Giuuuuli 1/22/2024 10:36',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:36:17.667-03:00' ],
+		#prior : OmReference [ '176' ],
+		#self : OmReference [ '177' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := ((sistema getEmpresa) encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. sistema abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ sistema error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [sistema error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ sistema error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Jere 1/16/2024 17:08',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := ((sistema) encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. sistema abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ sistema error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [sistema error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ sistema error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:36',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:37:54.134-03:00' ],
+		#prior : OmReference [ '177' ],
+		#self : OmReference [ '178' ]
+	},
+	#content : EpClassModification {
+		#oldClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonInicioSesion\r\tinstanceVariableNames: \'campoUser campoClave sistema\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonInicioSesion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoUser,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoClave,
+					#parent : @7
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #sistema,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonInicioSesion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonInicioSesion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonInicioSesion,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		},
+		#newClass : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#superclassName : 'BotonAccion',
+				#definitionSource : 'BotonAccion subclass: #BotonInicioSesion\r\tinstanceVariableNames: \'campoUser campoClave sistema ventanita\'\r\tclassVariableNames: \'\'\r\tpackage: \'TPOFINAL VISUAL\'',
+				#traitCompositionSource : '{}'
+			},
+			#name : #BotonInicioSesion,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoUser,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #campoClave,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #sistema,
+					#parent : @27
+				},
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #BotonInicioSesion,
+						#isMetaSide : false
+					},
+					#name : #ventanita,
+					#parent : @27
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'BotonInicioSesion class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'BotonInicioSesion class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @27
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #BotonInicioSesion,
+					#isMetaSide : false
+				},
+				#parent : @27,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #'TPOFINAL VISUAL',
+			#package : #'TPOFINAL VISUAL',
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:38:31.408-03:00' ],
+		#prior : OmReference [ '178' ],
+		#self : OmReference [ '179' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:conVentana:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema conVentana: unaVentana\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema.\rventanita:= unaVentana.\rself iniciarSesion.\r ',
+			#stamp : 'Giuuuuli 1/22/2024 10:38',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:39:47.069-03:00' ],
+		#prior : OmReference [ '179' ],
+		#self : OmReference [ '180' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := ((sistema) encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. sistema abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ sistema error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [sistema error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ sistema error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:36',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. ventanita abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:39',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:40:22.224-03:00' ],
+		#prior : OmReference [ '180' ],
+		#self : OmReference [ '181' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #ventanaInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesion\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Jere 1/16/2024 17:07',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VistaUsuario,
+				#isMetaSide : false
+			},
+			#name : #ventanaInicioSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'ventanaInicioSesion\rsuper initialize.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@300).\r"titulo"\rtitulo := StringMorph new.\rtitulo contents: \'Iniciar Sesion:\'.\rself addMorph: titulo.\rtitulo position: self topLeft + (90@55).\r"campo usuario"\rcampoUsuario := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU DNI\'.\rself addMorph: campoUsuario.\rcampoUsuario position: self center - (campoUsuario extent/2) - (0@40).\rself openCenteredInWorld.\r"campo contraseña"\rcampoContrasenia := RubTextFieldMorph new extent:(200@20);ghostText: \'INGRESE SU CONTRASEÑA\'.\rself addMorph: campoContrasenia.\rcampoContrasenia position: self center - (campoContrasenia extent/2) - (0@5).\rself openCenteredInWorld.\r"boton aceptar"\rbotonAceptar := BotonInicioSesion new.\rbotonAceptar label: \'ACEPTAR\'.\rbotonAceptar position: self center - (botonAceptar extent/2) + (0@30) - (70@0).\rbotonAceptar mouseAction: [botonAceptar inicializar: campoUsuario conContra: campoContrasenia conSistema: empresa conVentana:self.].\rself addMorph: botonAceptar.\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:40',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-22T10:41:17.871-03:00' ],
+		#prior : OmReference [ '181' ],
+		#self : OmReference [ '182' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : 'C:\\Users\\Usuario\\Documents\\Pharo\\images\\febreeeroooooooo- 64bit (stable)\\febreeeroooooooo- 64bit (stable).image'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:18:14.502-03:00' ],
+		#prior : OmReference [ '182' ],
+		#self : OmReference [ '183' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r|rta|.\rrta := colClientes detect:[:unCliente | unCliente esIgual: unDni].\r^ rta.',
+			#stamp : 'Jere 1/15/2024 20:01',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^colClientes detect:[:unCliente | unCliente esIgual: unDni]ifNone: [ nil ].\r',
+			#stamp : 'Giuuuuli 1/23/2024 00:18',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:25:47.424-03:00' ],
+		#prior : OmReference [ '183' ],
+		#self : OmReference [ '184' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema getEmpresa .\rself iniciarSesion.\r ',
+			#stamp : 'Giuuuuli 1/22/2024 10:36',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:43:44.17-03:00' ],
+		#prior : OmReference [ '184' ],
+		#self : OmReference [ '185' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:setVentana:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setSistema:unSistema setVentana:unaVentana\rsistema :=unSistema .\rventanita :=unaVentana .',
+			#stamp : 'Giuuuuli 1/23/2024 00:43',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:43:44.176-03:00' ],
+		#prior : OmReference [ '185' ],
+		#self : OmReference [ '186' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:setVentana:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'setSistema:unSistema setVentana:unaVentana\rsistema :=unSistema .\rventanita :=unaVentana .',
+			#stamp : 'Giuuuuli 1/23/2024 00:43',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'setSistema:setVentana:',
+			#protocol : #initialization,
+			#sourceCode : 'setSistema:unSistema setVentana:unaVentana\rsistema :=unSistema .\rventanita :=unaVentana .',
+			#stamp : 'Giuuuuli 1/23/2024 00:43',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:45:15.667-03:00' ],
+		#prior : OmReference [ '186' ],
+		#self : OmReference [ '187' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:conVentana:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema conVentana: unaVentana\rcampoUser := unUsuario.\rcampoClave := unaContra.\rsistema := unSistema.\rventanita:= unaVentana.\rself iniciarSesion.\r ',
+			#stamp : 'Giuuuuli 1/22/2024 10:38',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #'inicializar:conContra:conSistema:conVentana:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'inicializar: unUsuario conContra: unaContra conSistema: unSistema conVentana: unaVentana\rcampoUser := unUsuario.\rcampoClave := unaContra.\rself  setSistema: unSistema  setVentana: unaVentana. \rself mouseAction: [ self iniciarSesion].\r ',
+			#stamp : 'Giuuuuli 1/23/2024 00:45',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:47:37.699-03:00' ],
+		#prior : OmReference [ '187' ],
+		#self : OmReference [ '188' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (sistema encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. ventanita abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/22/2024 10:39',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #BotonInicioSesion,
+				#isMetaSide : false
+			},
+			#name : #iniciarSesion,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSesion\r\r"es usuario comun"\r    ((campoUser getText ~= \'\')  & (campoUser getText asString isAllDigits) & (campoClave getText ~= \'\'))\r    ifTrue: \r    [ \r        |tempUsuario|.\r        tempUsuario := (ventanita getEmpresa  encontrarClienteconDNI: campoUser).\r        tempUsuario\r        ifNotNil: \r        [\r            ((tempUsuario getContrasenia) asString = (campoClave) asString)\r                ifTrue: [ self owner delete. ventanita abrirVisualContratos: tempUsuario. ]\r                ifFalse: [ ventanita error: \'Contraseña incorrecta.\'].\r        ] \r        ifNil: \r            [ventanita error: \'Usuario no existe.\'].\r    ]\r    ifFalse:\r    [ ventanita error: \'Error: no ingresó correctamente en algún campo\' ]\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 00:47',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T00:49:18.766-03:00' ],
+		#prior : OmReference [ '188' ],
+		#self : OmReference [ '189' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^colClientes detect:[:unCliente | unCliente esIgual: unDni]ifNone: [ nil ].\r',
+			#stamp : 'Giuuuuli 1/23/2024 00:18',
+			#package : #TPOFINAL
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #EmpresaTurismo,
+				#isMetaSide : false
+			},
+			#name : #'encontrarClienteconDNI:',
+			#protocol : #queries,
+			#sourceCode : 'encontrarClienteconDNI: unDni\r^colClientes detect:[:unCliente | unCliente = unDni]ifNone: [ nil ].\r',
+			#stamp : 'Giuuuuli 1/23/2024 00:49',
+			#package : #TPOFINAL
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T01:14:02.141-03:00' ],
+		#prior : OmReference [ '189' ],
+		#self : OmReference [ '190' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #VisualEmpresa,
+				#isMetaSide : false
+			},
+			#name : #'inicializarConSISTEMA:',
+			#protocol : #initialization,
+			#sourceCode : 'inicializarConSISTEMA:unSistema\rsuper initialize.\rself iniciarSistema: unSistema.\rself color: Color paleBlue.\rself position: 45@45.\rself bounds: (self position extent: 450@100).\rorigen := self innerBounds origin.\r"texto fecha hoy"\rfechaHoy := StringMorph new.\rfechaHoy contents: Date today asString.\rself addMorph: fechaHoy.\rfechaHoy position: origen + (5@5).\r"texto seleccione su rol"\rtituloMenu := StringMorph new.\rtituloMenu contents: \'SELECCIONE SU ROL\'.\rtituloMenu position: origen + (160@30).\rself addMorph: tituloMenu.\r"boton usuario admin"\rbotonUserAdmin := BotonAccion new.\rself addMorph: botonUserAdmin.\rbotonUserAdmin label: \'ADMINISTRADOR\'.\rbotonUserAdmin position: origen + (260@60).\r"boton usuario normal"\rbotonUserNormal := BotonAccion new.\rself addMorph: botonUserNormal.\rbotonUserNormal label: \'USUARIO\'.\rbotonUserNormal position: origen + (100@60).\rbotonUserNormal mouseAction: [self delete. self abrirInicioSesion]. "abre el inicio de sesion"\r"agregar cliente\rbotonCliente := BotonAccion new.\rbotonCliente label: \'AGREGAR CLIENTE\'.\rbotonCliente mouseAction: [nombre := UIManager default\r\trequest: \'What\'\'s your name?\'\r\tinitialAnswer: \'no name\'].\rself addMorph: botonCliente.\rbotonCliente position: origen + (5@25)."\rself openCenteredInWorld.\r\r',
+			#stamp : 'Giuuuuli 1/23/2024 01:14',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T01:14:41.247-03:00' ],
+		#prior : OmReference [ '190' ],
+		#self : OmReference [ '191' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #'VisualEmpresa class',
+				#isMetaSide : true
+			},
+			#name : #'abrirVisualEmpresaConSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'abrirVisualEmpresaConSistema:unSistema\r|aux|.\raux := VisualEmpresa new.\raux inicializarConSISTEMA: unSistema \r',
+			#stamp : 'Giuuuuli 1/23/2024 01:14',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Giuuuuli',
+		#time : DateAndTime [ '2024-01-23T01:15:59.59-03:00' ],
+		#prior : OmReference [ '191' ],
+		#self : OmReference [ '192' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'iniciarSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSistema: unSistema\rempresa := unSistema.\rVisualEmpresa abrirVisualEmpresa.',
+			#stamp : 'Jere 1/16/2024 17:03',
+			#package : #'TPOFINAL VISUAL'
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Ventana,
+				#isMetaSide : false
+			},
+			#name : #'iniciarSistema:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'iniciarSistema: unSistema\rempresa := unSistema.\rVisualEmpresa abrirVisualEmpresaConSistema: unSistema .',
+			#stamp : 'Giuuuuli 1/23/2024 01:15',
+			#package : #'TPOFINAL VISUAL'
+		}
+	}
+}
